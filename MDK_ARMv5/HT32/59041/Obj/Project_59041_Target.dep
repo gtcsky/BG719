@@ -1,0 +1,1650 @@
+Dependencies for Project 'Project_59041', Target 'Target': (DO NOT MODIFY !)
+CompilerVersion: 5060750::V5.06 update 6 (build 750)::ARMCC
+F (..\User\src\ht32f5xxxx_01_it.c)(0x5E72C537)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\ -I ..\library\CMSIS\Include -I ..\library\Device\Holtek\HT32F5xxxx\Include -I ..\library\HT32F5xxxx_Driver\inc -I ..\library\HT32_USBD_Library\inc -I ..\utilities -I ..\User\inc -I ..\utilities\common-I.\RTE\_Target-IC:\Keil_v5\ARM\PACK\Holtek\HT32_DFP\1.0.21\ARM\INC\Holtek\HT32F5xxxx-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DUSE_HT32F59041 -DUSE_HT32_DRIVER -DUSE_HT32F59041_SK -DUSE_HT32F59041 -DUSE_MEM_HT32F59041-o .\ht32\59041\obj\ht32f5xxxx_01_it.o --omf_browse .\ht32\59041\obj\ht32f5xxxx_01_it.crf --depend .\ht32\59041\obj\ht32f5xxxx_01_it.d)
+I (..\library\HT32F5xxxx_Driver\inc\ht32.h)(0x59959B2B)
+I (..\library\Device\Holtek\HT32F5xxxx\Include\ht32f5xxxx_01.h)(0x5EB26249)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_config.h)(0x5DCD42DC)
+I (..\library\CMSIS\Include\core_cm0plus.h)(0x5649CB3A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\library\CMSIS\Include\core_cmInstr.h)(0x5649CB3A)
+I (..\library\CMSIS\Include\core_cmFunc.h)(0x5649CB3A)
+I (..\library\Device\Holtek\HT32F5xxxx\Include\system_ht32f5xxxx_01.h)(0x599DAC9A)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_lib.h)(0x5DCD42DC)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f50231_41_libcfg.h)(0x5D455E89)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AD21A)
+I (..\ht32f5xxxx_conf.h)(0x5DCD2F40)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_adc.h)(0x5E6EE9DB)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_bftm.h)(0x5CB1B379)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_ckcu.h)(0x5CF65571)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_crc.h)(0x59959B2B)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_div.h)(0x5A9928BD)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_exti.h)(0x5CCFDE6A)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_flash.h)(0x5A17C59F)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_gpio.h)(0x5E756A05)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_tm_type.h)(0x5CEE39AA)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_tm.h)(0x5CF62BB8)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_i2c.h)(0x5EB3A8DB)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_mctm.h)(0x5DCD42DC)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_pwrcu.h)(0x5D455E89)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_rstcu.h)(0x5DCD42DC)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_rtc.h)(0x5CF5EB1D)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_spi.h)(0x5D1EF627)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_usart.h)(0x5CD579A8)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_wdt.h)(0x59959B2B)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_cm0plus_misc.h)(0x574D2641)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_serial.h)(0x5DCD32CE)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_div.h)(0x56C22A05)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_rand.h)(0x57B1BC8E)
+I (..\adc_group.h)(0x5E74726E)
+F (..\User\src\main.c)(0x5ED1C128)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\ -I ..\library\CMSIS\Include -I ..\library\Device\Holtek\HT32F5xxxx\Include -I ..\library\HT32F5xxxx_Driver\inc -I ..\library\HT32_USBD_Library\inc -I ..\utilities -I ..\User\inc -I ..\utilities\common-I.\RTE\_Target-IC:\Keil_v5\ARM\PACK\Holtek\HT32_DFP\1.0.21\ARM\INC\Holtek\HT32F5xxxx-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DUSE_HT32F59041 -DUSE_HT32_DRIVER -DUSE_HT32F59041_SK -DUSE_HT32F59041 -DUSE_MEM_HT32F59041-o .\ht32\59041\obj\main.o --omf_browse .\ht32\59041\obj\main.crf --depend .\ht32\59041\obj\main.d)
+I (..\adc_group.h)(0x5E74726E)
+I (..\library\Device\Holtek\HT32F5xxxx\Include\ht32f5xxxx_01.h)(0x5EB26249)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_config.h)(0x5DCD42DC)
+I (..\library\CMSIS\Include\core_cm0plus.h)(0x5649CB3A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\library\CMSIS\Include\core_cmInstr.h)(0x5649CB3A)
+I (..\library\CMSIS\Include\core_cmFunc.h)(0x5649CB3A)
+I (..\library\Device\Holtek\HT32F5xxxx\Include\system_ht32f5xxxx_01.h)(0x599DAC9A)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_lib.h)(0x5DCD42DC)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f50231_41_libcfg.h)(0x5D455E89)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AD21A)
+I (..\ht32f5xxxx_conf.h)(0x5DCD2F40)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_adc.h)(0x5E6EE9DB)
+I (..\library\HT32F5xxxx_Driver\inc\ht32.h)(0x59959B2B)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_bftm.h)(0x5CB1B379)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_ckcu.h)(0x5CF65571)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_crc.h)(0x59959B2B)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_div.h)(0x5A9928BD)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_exti.h)(0x5CCFDE6A)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_flash.h)(0x5A17C59F)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_gpio.h)(0x5E756A05)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_tm_type.h)(0x5CEE39AA)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_tm.h)(0x5CF62BB8)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_i2c.h)(0x5EB3A8DB)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_mctm.h)(0x5DCD42DC)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_pwrcu.h)(0x5D455E89)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_rstcu.h)(0x5DCD42DC)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_rtc.h)(0x5CF5EB1D)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_spi.h)(0x5D1EF627)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_usart.h)(0x5CD579A8)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_wdt.h)(0x59959B2B)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_cm0plus_misc.h)(0x574D2641)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_serial.h)(0x5DCD32CE)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_div.h)(0x56C22A05)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_rand.h)(0x57B1BC8E)
+I (..\User\inc\user_adc.h)(0x5E747264)
+I (..\User\inc\const.h)(0x5EB7B7C6)
+I (..\utilities\ht32_board.h)(0x5E63095F)
+I (..\utilities\HT32_board/ht32f50241_sk.h)(0x5EB3B360)
+I (..\utilities\common/i2c_eeprom.h)(0x5EB36589)
+I (..\utilities\common/spi_flash.h)(0x5C46FF4D)
+I (..\utilities\common/spi_lcd.h)(0x5D7A419C)
+I (..\utilities\common/lcd.h)(0x5D7A419C)
+I (..\ht32_board_config.h)(0x5E7566DB)
+I (..\User\inc\user_menu.h)(0x5EBBBEF7)
+I (..\User\inc\io_define.h)(0x5EB25D75)
+I (..\User\inc\user_i2c.h)(0x5EBBBB69)
+I (..\User\inc\user_lptimer.h)(0x5EB3A26C)
+I (..\User\inc\user_basetime.h)(0x5E72D964)
+I (..\User\inc\user_exti.h)(0x5E73117D)
+I (..\User\inc\user_key.h)(0x5EB7C4D3)
+I (..\User\inc\user_advtime.h)(0x5E75CA92)
+I (..\User\inc\user_lcd.h)(0x5EB26193)
+I (..\User\inc\user_datastore.h)(0x5EB64AA7)
+F (..\User\src\user_adc.c)(0x5E747289)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\ -I ..\library\CMSIS\Include -I ..\library\Device\Holtek\HT32F5xxxx\Include -I ..\library\HT32F5xxxx_Driver\inc -I ..\library\HT32_USBD_Library\inc -I ..\utilities -I ..\User\inc -I ..\utilities\common-I.\RTE\_Target-IC:\Keil_v5\ARM\PACK\Holtek\HT32_DFP\1.0.21\ARM\INC\Holtek\HT32F5xxxx-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DUSE_HT32F59041 -DUSE_HT32_DRIVER -DUSE_HT32F59041_SK -DUSE_HT32F59041 -DUSE_MEM_HT32F59041-o .\ht32\59041\obj\user_adc.o --omf_browse .\ht32\59041\obj\user_adc.crf --depend .\ht32\59041\obj\user_adc.d)
+I (..\library\HT32F5xxxx_Driver\inc\ht32.h)(0x59959B2B)
+I (..\library\Device\Holtek\HT32F5xxxx\Include\ht32f5xxxx_01.h)(0x5EB26249)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_config.h)(0x5DCD42DC)
+I (..\library\CMSIS\Include\core_cm0plus.h)(0x5649CB3A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\library\CMSIS\Include\core_cmInstr.h)(0x5649CB3A)
+I (..\library\CMSIS\Include\core_cmFunc.h)(0x5649CB3A)
+I (..\library\Device\Holtek\HT32F5xxxx\Include\system_ht32f5xxxx_01.h)(0x599DAC9A)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_lib.h)(0x5DCD42DC)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f50231_41_libcfg.h)(0x5D455E89)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AD21A)
+I (..\ht32f5xxxx_conf.h)(0x5DCD2F40)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_adc.h)(0x5E6EE9DB)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_bftm.h)(0x5CB1B379)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_ckcu.h)(0x5CF65571)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_crc.h)(0x59959B2B)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_div.h)(0x5A9928BD)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_exti.h)(0x5CCFDE6A)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_flash.h)(0x5A17C59F)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_gpio.h)(0x5E756A05)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_tm_type.h)(0x5CEE39AA)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_tm.h)(0x5CF62BB8)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_i2c.h)(0x5EB3A8DB)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_mctm.h)(0x5DCD42DC)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_pwrcu.h)(0x5D455E89)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_rstcu.h)(0x5DCD42DC)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_rtc.h)(0x5CF5EB1D)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_spi.h)(0x5D1EF627)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_usart.h)(0x5CD579A8)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_wdt.h)(0x59959B2B)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_cm0plus_misc.h)(0x574D2641)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_serial.h)(0x5DCD32CE)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_div.h)(0x56C22A05)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_rand.h)(0x57B1BC8E)
+I (..\utilities\ht32_board.h)(0x5E63095F)
+I (..\utilities\HT32_board/ht32f50241_sk.h)(0x5EB3B360)
+I (..\utilities\common/i2c_eeprom.h)(0x5EB36589)
+I (..\utilities\common/spi_flash.h)(0x5C46FF4D)
+I (..\utilities\common/spi_lcd.h)(0x5D7A419C)
+I (..\utilities\common/lcd.h)(0x5D7A419C)
+I (..\ht32_board_config.h)(0x5E7566DB)
+I (..\adc_group.h)(0x5E74726E)
+I (..\User\inc\user_adc.h)(0x5E747264)
+I (..\User\inc\const.h)(0x5EB7B7C6)
+I (..\User\inc\io_define.h)(0x5EB25D75)
+F (..\User\src\user_menu.c)(0x5EBBC72D)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\ -I ..\library\CMSIS\Include -I ..\library\Device\Holtek\HT32F5xxxx\Include -I ..\library\HT32F5xxxx_Driver\inc -I ..\library\HT32_USBD_Library\inc -I ..\utilities -I ..\User\inc -I ..\utilities\common-I.\RTE\_Target-IC:\Keil_v5\ARM\PACK\Holtek\HT32_DFP\1.0.21\ARM\INC\Holtek\HT32F5xxxx-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DUSE_HT32F59041 -DUSE_HT32_DRIVER -DUSE_HT32F59041_SK -DUSE_HT32F59041 -DUSE_MEM_HT32F59041-o .\ht32\59041\obj\user_menu.o --omf_browse .\ht32\59041\obj\user_menu.crf --depend .\ht32\59041\obj\user_menu.d)
+I (..\User\inc\user_menu.h)(0x5EBBBEF7)
+I (..\User\inc\const.h)(0x5EB7B7C6)
+I (..\library\HT32F5xxxx_Driver\inc\ht32.h)(0x59959B2B)
+I (..\library\Device\Holtek\HT32F5xxxx\Include\ht32f5xxxx_01.h)(0x5EB26249)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_config.h)(0x5DCD42DC)
+I (..\library\CMSIS\Include\core_cm0plus.h)(0x5649CB3A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\library\CMSIS\Include\core_cmInstr.h)(0x5649CB3A)
+I (..\library\CMSIS\Include\core_cmFunc.h)(0x5649CB3A)
+I (..\library\Device\Holtek\HT32F5xxxx\Include\system_ht32f5xxxx_01.h)(0x599DAC9A)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_lib.h)(0x5DCD42DC)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f50231_41_libcfg.h)(0x5D455E89)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AD21A)
+I (..\ht32f5xxxx_conf.h)(0x5DCD2F40)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_adc.h)(0x5E6EE9DB)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_bftm.h)(0x5CB1B379)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_ckcu.h)(0x5CF65571)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_crc.h)(0x59959B2B)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_div.h)(0x5A9928BD)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_exti.h)(0x5CCFDE6A)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_flash.h)(0x5A17C59F)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_gpio.h)(0x5E756A05)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_tm_type.h)(0x5CEE39AA)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_tm.h)(0x5CF62BB8)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_i2c.h)(0x5EB3A8DB)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_mctm.h)(0x5DCD42DC)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_pwrcu.h)(0x5D455E89)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_rstcu.h)(0x5DCD42DC)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_rtc.h)(0x5CF5EB1D)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_spi.h)(0x5D1EF627)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_usart.h)(0x5CD579A8)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_wdt.h)(0x59959B2B)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_cm0plus_misc.h)(0x574D2641)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_serial.h)(0x5DCD32CE)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_div.h)(0x56C22A05)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_rand.h)(0x57B1BC8E)
+I (..\utilities\ht32_board.h)(0x5E63095F)
+I (..\utilities\HT32_board/ht32f50241_sk.h)(0x5EB3B360)
+I (..\utilities\common/i2c_eeprom.h)(0x5EB36589)
+I (..\utilities\common/spi_flash.h)(0x5C46FF4D)
+I (..\utilities\common/spi_lcd.h)(0x5D7A419C)
+I (..\utilities\common/lcd.h)(0x5D7A419C)
+I (..\ht32_board_config.h)(0x5E7566DB)
+I (..\User\inc\io_define.h)(0x5EB25D75)
+I (..\User\inc\user_i2c.h)(0x5EBBBB69)
+I (..\User\inc\user_lcd.h)(0x5EB26193)
+I (..\User\inc\user_lptimer.h)(0x5EB3A26C)
+I (..\User\inc\user_key.h)(0x5EB7C4D3)
+I (..\User\inc\user_adc.h)(0x5E747264)
+I (..\adc_group.h)(0x5E74726E)
+I (..\User\inc\user_advtime.h)(0x5E75CA92)
+I (..\User\inc\user_tone.h)(0x5E75CD6D)
+I (..\User\inc\sensor_data.h)(0x5EA3FDEE)
+I (..\User\inc\user_datastore.h)(0x5EB64AA7)
+I (..\User\inc\user_ddl.h)(0x5EB3E00E)
+F (..\User\src\user_lptimer.c)(0x5E72D3D5)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\ -I ..\library\CMSIS\Include -I ..\library\Device\Holtek\HT32F5xxxx\Include -I ..\library\HT32F5xxxx_Driver\inc -I ..\library\HT32_USBD_Library\inc -I ..\utilities -I ..\User\inc -I ..\utilities\common-I.\RTE\_Target-IC:\Keil_v5\ARM\PACK\Holtek\HT32_DFP\1.0.21\ARM\INC\Holtek\HT32F5xxxx-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DUSE_HT32F59041 -DUSE_HT32_DRIVER -DUSE_HT32F59041_SK -DUSE_HT32F59041 -DUSE_MEM_HT32F59041-o .\ht32\59041\obj\user_lptimer.o --omf_browse .\ht32\59041\obj\user_lptimer.crf --depend .\ht32\59041\obj\user_lptimer.d)
+I (..\library\HT32F5xxxx_Driver\inc\ht32.h)(0x59959B2B)
+I (..\library\Device\Holtek\HT32F5xxxx\Include\ht32f5xxxx_01.h)(0x5EB26249)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_config.h)(0x5DCD42DC)
+I (..\library\CMSIS\Include\core_cm0plus.h)(0x5649CB3A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\library\CMSIS\Include\core_cmInstr.h)(0x5649CB3A)
+I (..\library\CMSIS\Include\core_cmFunc.h)(0x5649CB3A)
+I (..\library\Device\Holtek\HT32F5xxxx\Include\system_ht32f5xxxx_01.h)(0x599DAC9A)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_lib.h)(0x5DCD42DC)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f50231_41_libcfg.h)(0x5D455E89)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AD21A)
+I (..\ht32f5xxxx_conf.h)(0x5DCD2F40)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_adc.h)(0x5E6EE9DB)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_bftm.h)(0x5CB1B379)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_ckcu.h)(0x5CF65571)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_crc.h)(0x59959B2B)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_div.h)(0x5A9928BD)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_exti.h)(0x5CCFDE6A)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_flash.h)(0x5A17C59F)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_gpio.h)(0x5E756A05)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_tm_type.h)(0x5CEE39AA)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_tm.h)(0x5CF62BB8)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_i2c.h)(0x5EB3A8DB)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_mctm.h)(0x5DCD42DC)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_pwrcu.h)(0x5D455E89)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_rstcu.h)(0x5DCD42DC)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_rtc.h)(0x5CF5EB1D)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_spi.h)(0x5D1EF627)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_usart.h)(0x5CD579A8)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_wdt.h)(0x59959B2B)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_cm0plus_misc.h)(0x574D2641)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_serial.h)(0x5DCD32CE)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_div.h)(0x56C22A05)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_rand.h)(0x57B1BC8E)
+I (..\utilities\ht32_board.h)(0x5E63095F)
+I (..\utilities\HT32_board/ht32f50241_sk.h)(0x5EB3B360)
+I (..\utilities\common/i2c_eeprom.h)(0x5EB36589)
+I (..\utilities\common/spi_flash.h)(0x5C46FF4D)
+I (..\utilities\common/spi_lcd.h)(0x5D7A419C)
+I (..\utilities\common/lcd.h)(0x5D7A419C)
+I (..\ht32_board_config.h)(0x5E7566DB)
+I (..\User\inc\io_define.h)(0x5EB25D75)
+I (..\User\inc\const.h)(0x5EB7B7C6)
+I (..\User\inc\user_lptimer.h)(0x5EB3A26C)
+I (..\User\inc\user_menu.h)(0x5EBBBEF7)
+I (..\User\inc\user_i2c.h)(0x5EBBBB69)
+F (..\User\src\user_basetime.c)(0x5E731CD7)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\ -I ..\library\CMSIS\Include -I ..\library\Device\Holtek\HT32F5xxxx\Include -I ..\library\HT32F5xxxx_Driver\inc -I ..\library\HT32_USBD_Library\inc -I ..\utilities -I ..\User\inc -I ..\utilities\common-I.\RTE\_Target-IC:\Keil_v5\ARM\PACK\Holtek\HT32_DFP\1.0.21\ARM\INC\Holtek\HT32F5xxxx-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DUSE_HT32F59041 -DUSE_HT32_DRIVER -DUSE_HT32F59041_SK -DUSE_HT32F59041 -DUSE_MEM_HT32F59041-o .\ht32\59041\obj\user_basetime.o --omf_browse .\ht32\59041\obj\user_basetime.crf --depend .\ht32\59041\obj\user_basetime.d)
+I (..\User\inc\user_basetime.h)(0x5E72D964)
+I (..\User\inc\const.h)(0x5EB7B7C6)
+I (..\library\HT32F5xxxx_Driver\inc\ht32.h)(0x59959B2B)
+I (..\library\Device\Holtek\HT32F5xxxx\Include\ht32f5xxxx_01.h)(0x5EB26249)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_config.h)(0x5DCD42DC)
+I (..\library\CMSIS\Include\core_cm0plus.h)(0x5649CB3A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\library\CMSIS\Include\core_cmInstr.h)(0x5649CB3A)
+I (..\library\CMSIS\Include\core_cmFunc.h)(0x5649CB3A)
+I (..\library\Device\Holtek\HT32F5xxxx\Include\system_ht32f5xxxx_01.h)(0x599DAC9A)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_lib.h)(0x5DCD42DC)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f50231_41_libcfg.h)(0x5D455E89)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AD21A)
+I (..\ht32f5xxxx_conf.h)(0x5DCD2F40)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_adc.h)(0x5E6EE9DB)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_bftm.h)(0x5CB1B379)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_ckcu.h)(0x5CF65571)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_crc.h)(0x59959B2B)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_div.h)(0x5A9928BD)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_exti.h)(0x5CCFDE6A)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_flash.h)(0x5A17C59F)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_gpio.h)(0x5E756A05)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_tm_type.h)(0x5CEE39AA)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_tm.h)(0x5CF62BB8)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_i2c.h)(0x5EB3A8DB)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_mctm.h)(0x5DCD42DC)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_pwrcu.h)(0x5D455E89)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_rstcu.h)(0x5DCD42DC)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_rtc.h)(0x5CF5EB1D)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_spi.h)(0x5D1EF627)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_usart.h)(0x5CD579A8)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_wdt.h)(0x59959B2B)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_cm0plus_misc.h)(0x574D2641)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_serial.h)(0x5DCD32CE)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_div.h)(0x56C22A05)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_rand.h)(0x57B1BC8E)
+I (..\utilities\ht32_board.h)(0x5E63095F)
+I (..\utilities\HT32_board/ht32f50241_sk.h)(0x5EB3B360)
+I (..\utilities\common/i2c_eeprom.h)(0x5EB36589)
+I (..\utilities\common/spi_flash.h)(0x5C46FF4D)
+I (..\utilities\common/spi_lcd.h)(0x5D7A419C)
+I (..\utilities\common/lcd.h)(0x5D7A419C)
+I (..\ht32_board_config.h)(0x5E7566DB)
+I (..\User\inc\user_menu.h)(0x5EBBBEF7)
+I (..\User\inc\io_define.h)(0x5EB25D75)
+I (..\User\inc\user_i2c.h)(0x5EBBBB69)
+F (..\User\src\user_exti.c)(0x5E8E85CF)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\ -I ..\library\CMSIS\Include -I ..\library\Device\Holtek\HT32F5xxxx\Include -I ..\library\HT32F5xxxx_Driver\inc -I ..\library\HT32_USBD_Library\inc -I ..\utilities -I ..\User\inc -I ..\utilities\common-I.\RTE\_Target-IC:\Keil_v5\ARM\PACK\Holtek\HT32_DFP\1.0.21\ARM\INC\Holtek\HT32F5xxxx-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DUSE_HT32F59041 -DUSE_HT32_DRIVER -DUSE_HT32F59041_SK -DUSE_HT32F59041 -DUSE_MEM_HT32F59041-o .\ht32\59041\obj\user_exti.o --omf_browse .\ht32\59041\obj\user_exti.crf --depend .\ht32\59041\obj\user_exti.d)
+I (..\User\inc\user_exti.h)(0x5E73117D)
+I (..\User\inc\const.h)(0x5EB7B7C6)
+I (..\library\HT32F5xxxx_Driver\inc\ht32.h)(0x59959B2B)
+I (..\library\Device\Holtek\HT32F5xxxx\Include\ht32f5xxxx_01.h)(0x5EB26249)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_config.h)(0x5DCD42DC)
+I (..\library\CMSIS\Include\core_cm0plus.h)(0x5649CB3A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\library\CMSIS\Include\core_cmInstr.h)(0x5649CB3A)
+I (..\library\CMSIS\Include\core_cmFunc.h)(0x5649CB3A)
+I (..\library\Device\Holtek\HT32F5xxxx\Include\system_ht32f5xxxx_01.h)(0x599DAC9A)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_lib.h)(0x5DCD42DC)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f50231_41_libcfg.h)(0x5D455E89)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AD21A)
+I (..\ht32f5xxxx_conf.h)(0x5DCD2F40)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_adc.h)(0x5E6EE9DB)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_bftm.h)(0x5CB1B379)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_ckcu.h)(0x5CF65571)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_crc.h)(0x59959B2B)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_div.h)(0x5A9928BD)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_exti.h)(0x5CCFDE6A)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_flash.h)(0x5A17C59F)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_gpio.h)(0x5E756A05)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_tm_type.h)(0x5CEE39AA)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_tm.h)(0x5CF62BB8)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_i2c.h)(0x5EB3A8DB)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_mctm.h)(0x5DCD42DC)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_pwrcu.h)(0x5D455E89)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_rstcu.h)(0x5DCD42DC)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_rtc.h)(0x5CF5EB1D)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_spi.h)(0x5D1EF627)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_usart.h)(0x5CD579A8)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_wdt.h)(0x59959B2B)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_cm0plus_misc.h)(0x574D2641)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_serial.h)(0x5DCD32CE)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_div.h)(0x56C22A05)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_rand.h)(0x57B1BC8E)
+I (..\utilities\ht32_board.h)(0x5E63095F)
+I (..\utilities\HT32_board/ht32f50241_sk.h)(0x5EB3B360)
+I (..\utilities\common/i2c_eeprom.h)(0x5EB36589)
+I (..\utilities\common/spi_flash.h)(0x5C46FF4D)
+I (..\utilities\common/spi_lcd.h)(0x5D7A419C)
+I (..\utilities\common/lcd.h)(0x5D7A419C)
+I (..\ht32_board_config.h)(0x5E7566DB)
+I (..\User\inc\io_define.h)(0x5EB25D75)
+I (..\User\inc\user_menu.h)(0x5EBBBEF7)
+I (..\User\inc\user_i2c.h)(0x5EBBBB69)
+F (..\User\src\user_key.c)(0x5E731AA7)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\ -I ..\library\CMSIS\Include -I ..\library\Device\Holtek\HT32F5xxxx\Include -I ..\library\HT32F5xxxx_Driver\inc -I ..\library\HT32_USBD_Library\inc -I ..\utilities -I ..\User\inc -I ..\utilities\common-I.\RTE\_Target-IC:\Keil_v5\ARM\PACK\Holtek\HT32_DFP\1.0.21\ARM\INC\Holtek\HT32F5xxxx-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DUSE_HT32F59041 -DUSE_HT32_DRIVER -DUSE_HT32F59041_SK -DUSE_HT32F59041 -DUSE_MEM_HT32F59041-o .\ht32\59041\obj\user_key.o --omf_browse .\ht32\59041\obj\user_key.crf --depend .\ht32\59041\obj\user_key.d)
+I (..\User\inc\user_key.h)(0x5EB7C4D3)
+I (..\User\inc\const.h)(0x5EB7B7C6)
+I (..\library\HT32F5xxxx_Driver\inc\ht32.h)(0x59959B2B)
+I (..\library\Device\Holtek\HT32F5xxxx\Include\ht32f5xxxx_01.h)(0x5EB26249)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_config.h)(0x5DCD42DC)
+I (..\library\CMSIS\Include\core_cm0plus.h)(0x5649CB3A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\library\CMSIS\Include\core_cmInstr.h)(0x5649CB3A)
+I (..\library\CMSIS\Include\core_cmFunc.h)(0x5649CB3A)
+I (..\library\Device\Holtek\HT32F5xxxx\Include\system_ht32f5xxxx_01.h)(0x599DAC9A)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_lib.h)(0x5DCD42DC)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f50231_41_libcfg.h)(0x5D455E89)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AD21A)
+I (..\ht32f5xxxx_conf.h)(0x5DCD2F40)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_adc.h)(0x5E6EE9DB)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_bftm.h)(0x5CB1B379)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_ckcu.h)(0x5CF65571)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_crc.h)(0x59959B2B)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_div.h)(0x5A9928BD)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_exti.h)(0x5CCFDE6A)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_flash.h)(0x5A17C59F)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_gpio.h)(0x5E756A05)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_tm_type.h)(0x5CEE39AA)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_tm.h)(0x5CF62BB8)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_i2c.h)(0x5EB3A8DB)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_mctm.h)(0x5DCD42DC)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_pwrcu.h)(0x5D455E89)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_rstcu.h)(0x5DCD42DC)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_rtc.h)(0x5CF5EB1D)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_spi.h)(0x5D1EF627)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_usart.h)(0x5CD579A8)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_wdt.h)(0x59959B2B)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_cm0plus_misc.h)(0x574D2641)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_serial.h)(0x5DCD32CE)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_div.h)(0x56C22A05)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_rand.h)(0x57B1BC8E)
+I (..\utilities\ht32_board.h)(0x5E63095F)
+I (..\utilities\HT32_board/ht32f50241_sk.h)(0x5EB3B360)
+I (..\utilities\common/i2c_eeprom.h)(0x5EB36589)
+I (..\utilities\common/spi_flash.h)(0x5C46FF4D)
+I (..\utilities\common/spi_lcd.h)(0x5D7A419C)
+I (..\utilities\common/lcd.h)(0x5D7A419C)
+I (..\ht32_board_config.h)(0x5E7566DB)
+I (..\User\inc\user_menu.h)(0x5EBBBEF7)
+I (..\User\inc\io_define.h)(0x5EB25D75)
+I (..\User\inc\user_i2c.h)(0x5EBBBB69)
+I (..\User\inc\user_lptimer.h)(0x5EB3A26C)
+F (..\User\src\user_advtime.c)(0x5E75CDEB)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\ -I ..\library\CMSIS\Include -I ..\library\Device\Holtek\HT32F5xxxx\Include -I ..\library\HT32F5xxxx_Driver\inc -I ..\library\HT32_USBD_Library\inc -I ..\utilities -I ..\User\inc -I ..\utilities\common-I.\RTE\_Target-IC:\Keil_v5\ARM\PACK\Holtek\HT32_DFP\1.0.21\ARM\INC\Holtek\HT32F5xxxx-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DUSE_HT32F59041 -DUSE_HT32_DRIVER -DUSE_HT32F59041_SK -DUSE_HT32F59041 -DUSE_MEM_HT32F59041-o .\ht32\59041\obj\user_advtime.o --omf_browse .\ht32\59041\obj\user_advtime.crf --depend .\ht32\59041\obj\user_advtime.d)
+I (..\User\inc\user_advtime.h)(0x5E75CA92)
+I (..\User\inc\const.h)(0x5EB7B7C6)
+I (..\library\HT32F5xxxx_Driver\inc\ht32.h)(0x59959B2B)
+I (..\library\Device\Holtek\HT32F5xxxx\Include\ht32f5xxxx_01.h)(0x5EB26249)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_config.h)(0x5DCD42DC)
+I (..\library\CMSIS\Include\core_cm0plus.h)(0x5649CB3A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\library\CMSIS\Include\core_cmInstr.h)(0x5649CB3A)
+I (..\library\CMSIS\Include\core_cmFunc.h)(0x5649CB3A)
+I (..\library\Device\Holtek\HT32F5xxxx\Include\system_ht32f5xxxx_01.h)(0x599DAC9A)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_lib.h)(0x5DCD42DC)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f50231_41_libcfg.h)(0x5D455E89)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AD21A)
+I (..\ht32f5xxxx_conf.h)(0x5DCD2F40)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_adc.h)(0x5E6EE9DB)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_bftm.h)(0x5CB1B379)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_ckcu.h)(0x5CF65571)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_crc.h)(0x59959B2B)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_div.h)(0x5A9928BD)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_exti.h)(0x5CCFDE6A)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_flash.h)(0x5A17C59F)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_gpio.h)(0x5E756A05)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_tm_type.h)(0x5CEE39AA)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_tm.h)(0x5CF62BB8)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_i2c.h)(0x5EB3A8DB)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_mctm.h)(0x5DCD42DC)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_pwrcu.h)(0x5D455E89)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_rstcu.h)(0x5DCD42DC)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_rtc.h)(0x5CF5EB1D)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_spi.h)(0x5D1EF627)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_usart.h)(0x5CD579A8)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_wdt.h)(0x59959B2B)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_cm0plus_misc.h)(0x574D2641)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_serial.h)(0x5DCD32CE)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_div.h)(0x56C22A05)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_rand.h)(0x57B1BC8E)
+I (..\utilities\ht32_board.h)(0x5E63095F)
+I (..\utilities\HT32_board/ht32f50241_sk.h)(0x5EB3B360)
+I (..\utilities\common/i2c_eeprom.h)(0x5EB36589)
+I (..\utilities\common/spi_flash.h)(0x5C46FF4D)
+I (..\utilities\common/spi_lcd.h)(0x5D7A419C)
+I (..\utilities\common/lcd.h)(0x5D7A419C)
+I (..\ht32_board_config.h)(0x5E7566DB)
+I (..\User\inc\io_define.h)(0x5EB25D75)
+I (..\User\inc\user_menu.h)(0x5EBBBEF7)
+I (..\User\inc\user_i2c.h)(0x5EBBBB69)
+F (..\User\src\user_tone.c)(0x5E75CD3F)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\ -I ..\library\CMSIS\Include -I ..\library\Device\Holtek\HT32F5xxxx\Include -I ..\library\HT32F5xxxx_Driver\inc -I ..\library\HT32_USBD_Library\inc -I ..\utilities -I ..\User\inc -I ..\utilities\common-I.\RTE\_Target-IC:\Keil_v5\ARM\PACK\Holtek\HT32_DFP\1.0.21\ARM\INC\Holtek\HT32F5xxxx-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DUSE_HT32F59041 -DUSE_HT32_DRIVER -DUSE_HT32F59041_SK -DUSE_HT32F59041 -DUSE_MEM_HT32F59041-o .\ht32\59041\obj\user_tone.o --omf_browse .\ht32\59041\obj\user_tone.crf --depend .\ht32\59041\obj\user_tone.d)
+I (..\User\inc\user_tone.h)(0x5E75CD6D)
+I (..\User\inc\const.h)(0x5EB7B7C6)
+I (..\library\HT32F5xxxx_Driver\inc\ht32.h)(0x59959B2B)
+I (..\library\Device\Holtek\HT32F5xxxx\Include\ht32f5xxxx_01.h)(0x5EB26249)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_config.h)(0x5DCD42DC)
+I (..\library\CMSIS\Include\core_cm0plus.h)(0x5649CB3A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\library\CMSIS\Include\core_cmInstr.h)(0x5649CB3A)
+I (..\library\CMSIS\Include\core_cmFunc.h)(0x5649CB3A)
+I (..\library\Device\Holtek\HT32F5xxxx\Include\system_ht32f5xxxx_01.h)(0x599DAC9A)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_lib.h)(0x5DCD42DC)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f50231_41_libcfg.h)(0x5D455E89)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AD21A)
+I (..\ht32f5xxxx_conf.h)(0x5DCD2F40)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_adc.h)(0x5E6EE9DB)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_bftm.h)(0x5CB1B379)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_ckcu.h)(0x5CF65571)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_crc.h)(0x59959B2B)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_div.h)(0x5A9928BD)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_exti.h)(0x5CCFDE6A)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_flash.h)(0x5A17C59F)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_gpio.h)(0x5E756A05)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_tm_type.h)(0x5CEE39AA)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_tm.h)(0x5CF62BB8)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_i2c.h)(0x5EB3A8DB)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_mctm.h)(0x5DCD42DC)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_pwrcu.h)(0x5D455E89)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_rstcu.h)(0x5DCD42DC)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_rtc.h)(0x5CF5EB1D)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_spi.h)(0x5D1EF627)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_usart.h)(0x5CD579A8)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_wdt.h)(0x59959B2B)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_cm0plus_misc.h)(0x574D2641)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_serial.h)(0x5DCD32CE)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_div.h)(0x56C22A05)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_rand.h)(0x57B1BC8E)
+I (..\utilities\ht32_board.h)(0x5E63095F)
+I (..\utilities\HT32_board/ht32f50241_sk.h)(0x5EB3B360)
+I (..\utilities\common/i2c_eeprom.h)(0x5EB36589)
+I (..\utilities\common/spi_flash.h)(0x5C46FF4D)
+I (..\utilities\common/spi_lcd.h)(0x5D7A419C)
+I (..\utilities\common/lcd.h)(0x5D7A419C)
+I (..\ht32_board_config.h)(0x5E7566DB)
+I (..\User\inc\user_adc.h)(0x5E747264)
+I (..\adc_group.h)(0x5E74726E)
+I (..\User\inc\io_define.h)(0x5EB25D75)
+I (..\User\inc\user_lptimer.h)(0x5EB3A26C)
+I (..\User\inc\user_advtime.h)(0x5E75CA92)
+F (..\User\src\user_i2c.c)(0x5EBBBEDC)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\ -I ..\library\CMSIS\Include -I ..\library\Device\Holtek\HT32F5xxxx\Include -I ..\library\HT32F5xxxx_Driver\inc -I ..\library\HT32_USBD_Library\inc -I ..\utilities -I ..\User\inc -I ..\utilities\common-I.\RTE\_Target-IC:\Keil_v5\ARM\PACK\Holtek\HT32_DFP\1.0.21\ARM\INC\Holtek\HT32F5xxxx-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DUSE_HT32F59041 -DUSE_HT32_DRIVER -DUSE_HT32F59041_SK -DUSE_HT32F59041 -DUSE_MEM_HT32F59041-o .\ht32\59041\obj\user_i2c.o --omf_browse .\ht32\59041\obj\user_i2c.crf --depend .\ht32\59041\obj\user_i2c.d)
+I (..\User\inc\user_i2c.h)(0x5EBBBB69)
+I (..\User\inc\const.h)(0x5EB7B7C6)
+I (..\library\HT32F5xxxx_Driver\inc\ht32.h)(0x59959B2B)
+I (..\library\Device\Holtek\HT32F5xxxx\Include\ht32f5xxxx_01.h)(0x5EB26249)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_config.h)(0x5DCD42DC)
+I (..\library\CMSIS\Include\core_cm0plus.h)(0x5649CB3A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\library\CMSIS\Include\core_cmInstr.h)(0x5649CB3A)
+I (..\library\CMSIS\Include\core_cmFunc.h)(0x5649CB3A)
+I (..\library\Device\Holtek\HT32F5xxxx\Include\system_ht32f5xxxx_01.h)(0x599DAC9A)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_lib.h)(0x5DCD42DC)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f50231_41_libcfg.h)(0x5D455E89)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AD21A)
+I (..\ht32f5xxxx_conf.h)(0x5DCD2F40)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_adc.h)(0x5E6EE9DB)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_bftm.h)(0x5CB1B379)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_ckcu.h)(0x5CF65571)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_crc.h)(0x59959B2B)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_div.h)(0x5A9928BD)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_exti.h)(0x5CCFDE6A)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_flash.h)(0x5A17C59F)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_gpio.h)(0x5E756A05)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_tm_type.h)(0x5CEE39AA)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_tm.h)(0x5CF62BB8)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_i2c.h)(0x5EB3A8DB)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_mctm.h)(0x5DCD42DC)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_pwrcu.h)(0x5D455E89)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_rstcu.h)(0x5DCD42DC)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_rtc.h)(0x5CF5EB1D)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_spi.h)(0x5D1EF627)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_usart.h)(0x5CD579A8)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_wdt.h)(0x59959B2B)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_cm0plus_misc.h)(0x574D2641)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_serial.h)(0x5DCD32CE)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_div.h)(0x56C22A05)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_rand.h)(0x57B1BC8E)
+I (..\utilities\ht32_board.h)(0x5E63095F)
+I (..\utilities\HT32_board/ht32f50241_sk.h)(0x5EB3B360)
+I (..\utilities\common/i2c_eeprom.h)(0x5EB36589)
+I (..\utilities\common/spi_flash.h)(0x5C46FF4D)
+I (..\utilities\common/spi_lcd.h)(0x5D7A419C)
+I (..\utilities\common/lcd.h)(0x5D7A419C)
+I (..\ht32_board_config.h)(0x5E7566DB)
+I (..\User\inc\user_lptimer.h)(0x5EB3A26C)
+I (..\User\inc\user_menu.h)(0x5EBBBEF7)
+I (..\User\inc\io_define.h)(0x5EB25D75)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9AD21A)
+F (..\User\src\user_lcd.c)(0x5EB7D759)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\ -I ..\library\CMSIS\Include -I ..\library\Device\Holtek\HT32F5xxxx\Include -I ..\library\HT32F5xxxx_Driver\inc -I ..\library\HT32_USBD_Library\inc -I ..\utilities -I ..\User\inc -I ..\utilities\common-I.\RTE\_Target-IC:\Keil_v5\ARM\PACK\Holtek\HT32_DFP\1.0.21\ARM\INC\Holtek\HT32F5xxxx-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DUSE_HT32F59041 -DUSE_HT32_DRIVER -DUSE_HT32F59041_SK -DUSE_HT32F59041 -DUSE_MEM_HT32F59041-o .\ht32\59041\obj\user_lcd.o --omf_browse .\ht32\59041\obj\user_lcd.crf --depend .\ht32\59041\obj\user_lcd.d)
+I (..\User\inc\user_lcd.h)(0x5EB26193)
+I (..\User\inc\const.h)(0x5EB7B7C6)
+I (..\library\HT32F5xxxx_Driver\inc\ht32.h)(0x59959B2B)
+I (..\library\Device\Holtek\HT32F5xxxx\Include\ht32f5xxxx_01.h)(0x5EB26249)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_config.h)(0x5DCD42DC)
+I (..\library\CMSIS\Include\core_cm0plus.h)(0x5649CB3A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\library\CMSIS\Include\core_cmInstr.h)(0x5649CB3A)
+I (..\library\CMSIS\Include\core_cmFunc.h)(0x5649CB3A)
+I (..\library\Device\Holtek\HT32F5xxxx\Include\system_ht32f5xxxx_01.h)(0x599DAC9A)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_lib.h)(0x5DCD42DC)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f50231_41_libcfg.h)(0x5D455E89)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AD21A)
+I (..\ht32f5xxxx_conf.h)(0x5DCD2F40)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_adc.h)(0x5E6EE9DB)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_bftm.h)(0x5CB1B379)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_ckcu.h)(0x5CF65571)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_crc.h)(0x59959B2B)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_div.h)(0x5A9928BD)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_exti.h)(0x5CCFDE6A)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_flash.h)(0x5A17C59F)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_gpio.h)(0x5E756A05)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_tm_type.h)(0x5CEE39AA)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_tm.h)(0x5CF62BB8)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_i2c.h)(0x5EB3A8DB)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_mctm.h)(0x5DCD42DC)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_pwrcu.h)(0x5D455E89)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_rstcu.h)(0x5DCD42DC)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_rtc.h)(0x5CF5EB1D)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_spi.h)(0x5D1EF627)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_usart.h)(0x5CD579A8)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_wdt.h)(0x59959B2B)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_cm0plus_misc.h)(0x574D2641)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_serial.h)(0x5DCD32CE)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_div.h)(0x56C22A05)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_rand.h)(0x57B1BC8E)
+I (..\utilities\ht32_board.h)(0x5E63095F)
+I (..\utilities\HT32_board/ht32f50241_sk.h)(0x5EB3B360)
+I (..\utilities\common/i2c_eeprom.h)(0x5EB36589)
+I (..\utilities\common/spi_flash.h)(0x5C46FF4D)
+I (..\utilities\common/spi_lcd.h)(0x5D7A419C)
+I (..\utilities\common/lcd.h)(0x5D7A419C)
+I (..\ht32_board_config.h)(0x5E7566DB)
+I (..\User\inc\io_define.h)(0x5EB25D75)
+I (..\User\inc\user_spi.h)(0x5E991378)
+I (..\User\inc\user_adc.h)(0x5E747264)
+I (..\adc_group.h)(0x5E74726E)
+I (..\User\inc\user_lptimer.h)(0x5EB3A26C)
+I (..\User\inc\user_character.h)(0x5EB26138)
+I (..\User\inc\user_menu.h)(0x5EBBBEF7)
+I (..\User\inc\user_i2c.h)(0x5EBBBB69)
+F (..\User\src\user_spi.c)(0x5E99408C)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\ -I ..\library\CMSIS\Include -I ..\library\Device\Holtek\HT32F5xxxx\Include -I ..\library\HT32F5xxxx_Driver\inc -I ..\library\HT32_USBD_Library\inc -I ..\utilities -I ..\User\inc -I ..\utilities\common-I.\RTE\_Target-IC:\Keil_v5\ARM\PACK\Holtek\HT32_DFP\1.0.21\ARM\INC\Holtek\HT32F5xxxx-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DUSE_HT32F59041 -DUSE_HT32_DRIVER -DUSE_HT32F59041_SK -DUSE_HT32F59041 -DUSE_MEM_HT32F59041-o .\ht32\59041\obj\user_spi.o --omf_browse .\ht32\59041\obj\user_spi.crf --depend .\ht32\59041\obj\user_spi.d)
+I (..\User\inc\user_spi.h)(0x5E991378)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\User\inc\const.h)(0x5EB7B7C6)
+I (..\library\HT32F5xxxx_Driver\inc\ht32.h)(0x59959B2B)
+I (..\library\Device\Holtek\HT32F5xxxx\Include\ht32f5xxxx_01.h)(0x5EB26249)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_config.h)(0x5DCD42DC)
+I (..\library\CMSIS\Include\core_cm0plus.h)(0x5649CB3A)
+I (..\library\CMSIS\Include\core_cmInstr.h)(0x5649CB3A)
+I (..\library\CMSIS\Include\core_cmFunc.h)(0x5649CB3A)
+I (..\library\Device\Holtek\HT32F5xxxx\Include\system_ht32f5xxxx_01.h)(0x599DAC9A)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_lib.h)(0x5DCD42DC)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f50231_41_libcfg.h)(0x5D455E89)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AD21A)
+I (..\ht32f5xxxx_conf.h)(0x5DCD2F40)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_adc.h)(0x5E6EE9DB)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_bftm.h)(0x5CB1B379)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_ckcu.h)(0x5CF65571)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_crc.h)(0x59959B2B)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_div.h)(0x5A9928BD)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_exti.h)(0x5CCFDE6A)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_flash.h)(0x5A17C59F)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_gpio.h)(0x5E756A05)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_tm_type.h)(0x5CEE39AA)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_tm.h)(0x5CF62BB8)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_i2c.h)(0x5EB3A8DB)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_mctm.h)(0x5DCD42DC)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_pwrcu.h)(0x5D455E89)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_rstcu.h)(0x5DCD42DC)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_rtc.h)(0x5CF5EB1D)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_spi.h)(0x5D1EF627)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_usart.h)(0x5CD579A8)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_wdt.h)(0x59959B2B)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_cm0plus_misc.h)(0x574D2641)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_serial.h)(0x5DCD32CE)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_div.h)(0x56C22A05)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_rand.h)(0x57B1BC8E)
+I (..\utilities\ht32_board.h)(0x5E63095F)
+I (..\utilities\HT32_board/ht32f50241_sk.h)(0x5EB3B360)
+I (..\utilities\common/i2c_eeprom.h)(0x5EB36589)
+I (..\utilities\common/spi_flash.h)(0x5C46FF4D)
+I (..\utilities\common/spi_lcd.h)(0x5D7A419C)
+I (..\utilities\common/lcd.h)(0x5D7A419C)
+I (..\ht32_board_config.h)(0x5E7566DB)
+I (..\User\inc\io_define.h)(0x5EB25D75)
+I (..\User\inc\user_lptimer.h)(0x5EB3A26C)
+I (..\User\inc\user_menu.h)(0x5EBBBEF7)
+I (..\User\inc\user_i2c.h)(0x5EBBBB69)
+F (..\User\src\user_datastore.c)(0x5EB64ADD)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\ -I ..\library\CMSIS\Include -I ..\library\Device\Holtek\HT32F5xxxx\Include -I ..\library\HT32F5xxxx_Driver\inc -I ..\library\HT32_USBD_Library\inc -I ..\utilities -I ..\User\inc -I ..\utilities\common-I.\RTE\_Target-IC:\Keil_v5\ARM\PACK\Holtek\HT32_DFP\1.0.21\ARM\INC\Holtek\HT32F5xxxx-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DUSE_HT32F59041 -DUSE_HT32_DRIVER -DUSE_HT32F59041_SK -DUSE_HT32F59041 -DUSE_MEM_HT32F59041-o .\ht32\59041\obj\user_datastore.o --omf_browse .\ht32\59041\obj\user_datastore.crf --depend .\ht32\59041\obj\user_datastore.d)
+I (..\User\inc\user_datastore.h)(0x5EB64AA7)
+I (..\User\inc\const.h)(0x5EB7B7C6)
+I (..\library\HT32F5xxxx_Driver\inc\ht32.h)(0x59959B2B)
+I (..\library\Device\Holtek\HT32F5xxxx\Include\ht32f5xxxx_01.h)(0x5EB26249)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_config.h)(0x5DCD42DC)
+I (..\library\CMSIS\Include\core_cm0plus.h)(0x5649CB3A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\library\CMSIS\Include\core_cmInstr.h)(0x5649CB3A)
+I (..\library\CMSIS\Include\core_cmFunc.h)(0x5649CB3A)
+I (..\library\Device\Holtek\HT32F5xxxx\Include\system_ht32f5xxxx_01.h)(0x599DAC9A)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_lib.h)(0x5DCD42DC)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f50231_41_libcfg.h)(0x5D455E89)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AD21A)
+I (..\ht32f5xxxx_conf.h)(0x5DCD2F40)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_adc.h)(0x5E6EE9DB)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_bftm.h)(0x5CB1B379)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_ckcu.h)(0x5CF65571)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_crc.h)(0x59959B2B)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_div.h)(0x5A9928BD)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_exti.h)(0x5CCFDE6A)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_flash.h)(0x5A17C59F)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_gpio.h)(0x5E756A05)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_tm_type.h)(0x5CEE39AA)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_tm.h)(0x5CF62BB8)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_i2c.h)(0x5EB3A8DB)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_mctm.h)(0x5DCD42DC)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_pwrcu.h)(0x5D455E89)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_rstcu.h)(0x5DCD42DC)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_rtc.h)(0x5CF5EB1D)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_spi.h)(0x5D1EF627)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_usart.h)(0x5CD579A8)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_wdt.h)(0x59959B2B)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_cm0plus_misc.h)(0x574D2641)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_serial.h)(0x5DCD32CE)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_div.h)(0x56C22A05)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_rand.h)(0x57B1BC8E)
+I (..\utilities\ht32_board.h)(0x5E63095F)
+I (..\utilities\HT32_board/ht32f50241_sk.h)(0x5EB3B360)
+I (..\utilities\common/i2c_eeprom.h)(0x5EB36589)
+I (..\utilities\common/spi_flash.h)(0x5C46FF4D)
+I (..\utilities\common/spi_lcd.h)(0x5D7A419C)
+I (..\utilities\common/lcd.h)(0x5D7A419C)
+I (..\ht32_board_config.h)(0x5E7566DB)
+I (..\User\inc\user_menu.h)(0x5EBBBEF7)
+I (..\User\inc\io_define.h)(0x5EB25D75)
+I (..\User\inc\user_i2c.h)(0x5EBBBB69)
+I (..\User\inc\user_ddl.h)(0x5EB3E00E)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9AD21A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5D9AD21A)
+F (..\User\src\user_ddl.c)(0x5EB3E008)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\ -I ..\library\CMSIS\Include -I ..\library\Device\Holtek\HT32F5xxxx\Include -I ..\library\HT32F5xxxx_Driver\inc -I ..\library\HT32_USBD_Library\inc -I ..\utilities -I ..\User\inc -I ..\utilities\common-I.\RTE\_Target-IC:\Keil_v5\ARM\PACK\Holtek\HT32_DFP\1.0.21\ARM\INC\Holtek\HT32F5xxxx-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DUSE_HT32F59041 -DUSE_HT32_DRIVER -DUSE_HT32F59041_SK -DUSE_HT32F59041 -DUSE_MEM_HT32F59041-o .\ht32\59041\obj\user_ddl.o --omf_browse .\ht32\59041\obj\user_ddl.crf --depend .\ht32\59041\obj\user_ddl.d)
+I (..\User\inc\user_ddl.h)(0x5EB3E00E)
+I (..\User\inc\const.h)(0x5EB7B7C6)
+I (..\library\HT32F5xxxx_Driver\inc\ht32.h)(0x59959B2B)
+I (..\library\Device\Holtek\HT32F5xxxx\Include\ht32f5xxxx_01.h)(0x5EB26249)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_config.h)(0x5DCD42DC)
+I (..\library\CMSIS\Include\core_cm0plus.h)(0x5649CB3A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\library\CMSIS\Include\core_cmInstr.h)(0x5649CB3A)
+I (..\library\CMSIS\Include\core_cmFunc.h)(0x5649CB3A)
+I (..\library\Device\Holtek\HT32F5xxxx\Include\system_ht32f5xxxx_01.h)(0x599DAC9A)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_lib.h)(0x5DCD42DC)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f50231_41_libcfg.h)(0x5D455E89)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AD21A)
+I (..\ht32f5xxxx_conf.h)(0x5DCD2F40)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_adc.h)(0x5E6EE9DB)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_bftm.h)(0x5CB1B379)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_ckcu.h)(0x5CF65571)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_crc.h)(0x59959B2B)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_div.h)(0x5A9928BD)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_exti.h)(0x5CCFDE6A)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_flash.h)(0x5A17C59F)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_gpio.h)(0x5E756A05)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_tm_type.h)(0x5CEE39AA)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_tm.h)(0x5CF62BB8)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_i2c.h)(0x5EB3A8DB)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_mctm.h)(0x5DCD42DC)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_pwrcu.h)(0x5D455E89)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_rstcu.h)(0x5DCD42DC)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_rtc.h)(0x5CF5EB1D)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_spi.h)(0x5D1EF627)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_usart.h)(0x5CD579A8)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_wdt.h)(0x59959B2B)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_cm0plus_misc.h)(0x574D2641)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_serial.h)(0x5DCD32CE)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_div.h)(0x56C22A05)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_rand.h)(0x57B1BC8E)
+I (..\utilities\ht32_board.h)(0x5E63095F)
+I (..\utilities\HT32_board/ht32f50241_sk.h)(0x5EB3B360)
+I (..\utilities\common/i2c_eeprom.h)(0x5EB36589)
+I (..\utilities\common/spi_flash.h)(0x5C46FF4D)
+I (..\utilities\common/spi_lcd.h)(0x5D7A419C)
+I (..\utilities\common/lcd.h)(0x5D7A419C)
+I (..\ht32_board_config.h)(0x5E7566DB)
+F (..\ht32f5xxxx_conf.h)(0x5DCD2F40)()
+F (.\ht32_op.s)(0x5D44293D)(--cpu Cortex-M0+ -g --apcs=interwork --pd "__MICROLIB SETA 1"-I.\RTE\_Target-IC:\Keil_v5\ARM\PACK\Holtek\HT32_DFP\1.0.21\ARM\INC\Holtek\HT32F5xxxx-IC:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 529" --pd "USE_HT32F59041 SETA 1" --pd "USE_HT32_CHIP SETA 8"--list .\ht32\59041\list\ht32_op.lst --xref -o .\ht32\59041\obj\ht32_op.o --depend .\ht32\59041\obj\ht32_op.d)
+F (.\HT32F5xxxx_01_DebugSupport.ini)(0x5D22CD88)()
+F (..\system_ht32f5xxxx_04.c)(0x5E718471)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\ -I ..\library\CMSIS\Include -I ..\library\Device\Holtek\HT32F5xxxx\Include -I ..\library\HT32F5xxxx_Driver\inc -I ..\library\HT32_USBD_Library\inc -I ..\utilities -I ..\User\inc -I ..\utilities\common-I.\RTE\_Target-IC:\Keil_v5\ARM\PACK\Holtek\HT32_DFP\1.0.21\ARM\INC\Holtek\HT32F5xxxx-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DUSE_HT32F59041 -DUSE_HT32_DRIVER -DUSE_HT32F59041_SK -DUSE_HT32F59041 -DUSE_MEM_HT32F59041-o .\ht32\59041\obj\system_ht32f5xxxx_04.o --omf_browse .\ht32\59041\obj\system_ht32f5xxxx_04.crf --depend .\ht32\59041\obj\system_ht32f5xxxx_04.d)
+I (..\library\Device\Holtek\HT32F5xxxx\Include\ht32f5xxxx_01.h)(0x5EB26249)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_config.h)(0x5DCD42DC)
+I (..\library\CMSIS\Include\core_cm0plus.h)(0x5649CB3A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\library\CMSIS\Include\core_cmInstr.h)(0x5649CB3A)
+I (..\library\CMSIS\Include\core_cmFunc.h)(0x5649CB3A)
+I (..\library\Device\Holtek\HT32F5xxxx\Include\system_ht32f5xxxx_01.h)(0x599DAC9A)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_lib.h)(0x5DCD42DC)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f50231_41_libcfg.h)(0x5D455E89)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AD21A)
+I (..\ht32f5xxxx_conf.h)(0x5DCD2F40)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_adc.h)(0x5E6EE9DB)
+I (..\library\HT32F5xxxx_Driver\inc\ht32.h)(0x59959B2B)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_bftm.h)(0x5CB1B379)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_ckcu.h)(0x5CF65571)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_crc.h)(0x59959B2B)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_div.h)(0x5A9928BD)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_exti.h)(0x5CCFDE6A)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_flash.h)(0x5A17C59F)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_gpio.h)(0x5E756A05)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_tm_type.h)(0x5CEE39AA)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_tm.h)(0x5CF62BB8)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_i2c.h)(0x5EB3A8DB)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_mctm.h)(0x5DCD42DC)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_pwrcu.h)(0x5D455E89)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_rstcu.h)(0x5DCD42DC)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_rtc.h)(0x5CF5EB1D)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_spi.h)(0x5D1EF627)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_usart.h)(0x5CD579A8)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_wdt.h)(0x59959B2B)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_cm0plus_misc.h)(0x574D2641)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_serial.h)(0x5DCD32CE)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_div.h)(0x56C22A05)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_rand.h)(0x57B1BC8E)
+F (.\startup_ht32f5xxxx_02.s)(0x5E718493)(--cpu Cortex-M0+ -g --apcs=interwork --pd "__MICROLIB SETA 1"-I.\RTE\_Target-IC:\Keil_v5\ARM\PACK\Holtek\HT32_DFP\1.0.21\ARM\INC\Holtek\HT32F5xxxx-IC:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 529" --pd "USE_HT32F59041 SETA 1" --pd "USE_HT32_CHIP SETA 8"--list .\ht32\59041\list\startup_ht32f5xxxx_02.lst --xref -o .\ht32\59041\obj\startup_ht32f5xxxx_02.o --depend .\ht32\59041\obj\startup_ht32f5xxxx_02.d)
+F (..\library\HT32F5xxxx_Driver\src\ht32_cm0plus_misc.c)(0x57B1BC8E)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\ -I ..\library\CMSIS\Include -I ..\library\Device\Holtek\HT32F5xxxx\Include -I ..\library\HT32F5xxxx_Driver\inc -I ..\library\HT32_USBD_Library\inc -I ..\utilities -I ..\User\inc -I ..\utilities\common-I.\RTE\_Target-IC:\Keil_v5\ARM\PACK\Holtek\HT32_DFP\1.0.21\ARM\INC\Holtek\HT32F5xxxx-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DUSE_HT32F59041 -DUSE_HT32_DRIVER -DUSE_HT32F59041_SK -DUSE_HT32F59041 -DUSE_MEM_HT32F59041-o .\ht32\59041\obj\ht32_cm0plus_misc.o --omf_browse .\ht32\59041\obj\ht32_cm0plus_misc.crf --depend .\ht32\59041\obj\ht32_cm0plus_misc.d)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_cm0plus_misc.h)(0x574D2641)
+I (..\library\HT32F5xxxx_Driver\inc\ht32.h)(0x59959B2B)
+I (..\library\Device\Holtek\HT32F5xxxx\Include\ht32f5xxxx_01.h)(0x5EB26249)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_config.h)(0x5DCD42DC)
+I (..\library\CMSIS\Include\core_cm0plus.h)(0x5649CB3A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\library\CMSIS\Include\core_cmInstr.h)(0x5649CB3A)
+I (..\library\CMSIS\Include\core_cmFunc.h)(0x5649CB3A)
+I (..\library\Device\Holtek\HT32F5xxxx\Include\system_ht32f5xxxx_01.h)(0x599DAC9A)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_lib.h)(0x5DCD42DC)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f50231_41_libcfg.h)(0x5D455E89)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AD21A)
+I (..\ht32f5xxxx_conf.h)(0x5DCD2F40)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_adc.h)(0x5E6EE9DB)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_bftm.h)(0x5CB1B379)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_ckcu.h)(0x5CF65571)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_crc.h)(0x59959B2B)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_div.h)(0x5A9928BD)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_exti.h)(0x5CCFDE6A)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_flash.h)(0x5A17C59F)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_gpio.h)(0x5E756A05)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_tm_type.h)(0x5CEE39AA)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_tm.h)(0x5CF62BB8)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_i2c.h)(0x5EB3A8DB)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_mctm.h)(0x5DCD42DC)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_pwrcu.h)(0x5D455E89)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_rstcu.h)(0x5DCD42DC)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_rtc.h)(0x5CF5EB1D)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_spi.h)(0x5D1EF627)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_usart.h)(0x5CD579A8)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_wdt.h)(0x59959B2B)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_serial.h)(0x5DCD32CE)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_div.h)(0x56C22A05)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_rand.h)(0x57B1BC8E)
+I (..\library\HT32F5xxxx_Driver\src\ht32_div.c)(0x56C22A05)
+I (..\library\HT32F5xxxx_Driver\src\ht32_rand.c)(0x5A017F36)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9AD21A)
+F (..\library\HT32F5xxxx_Driver\src\ht32f5xxxx_adc.c)(0x5D523E01)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\ -I ..\library\CMSIS\Include -I ..\library\Device\Holtek\HT32F5xxxx\Include -I ..\library\HT32F5xxxx_Driver\inc -I ..\library\HT32_USBD_Library\inc -I ..\utilities -I ..\User\inc -I ..\utilities\common-I.\RTE\_Target-IC:\Keil_v5\ARM\PACK\Holtek\HT32_DFP\1.0.21\ARM\INC\Holtek\HT32F5xxxx-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DUSE_HT32F59041 -DUSE_HT32_DRIVER -DUSE_HT32F59041_SK -DUSE_HT32F59041 -DUSE_MEM_HT32F59041-o .\ht32\59041\obj\ht32f5xxxx_adc.o --omf_browse .\ht32\59041\obj\ht32f5xxxx_adc.crf --depend .\ht32\59041\obj\ht32f5xxxx_adc.d)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_adc.h)(0x5E6EE9DB)
+I (..\library\HT32F5xxxx_Driver\inc\ht32.h)(0x59959B2B)
+I (..\library\Device\Holtek\HT32F5xxxx\Include\ht32f5xxxx_01.h)(0x5EB26249)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_config.h)(0x5DCD42DC)
+I (..\library\CMSIS\Include\core_cm0plus.h)(0x5649CB3A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\library\CMSIS\Include\core_cmInstr.h)(0x5649CB3A)
+I (..\library\CMSIS\Include\core_cmFunc.h)(0x5649CB3A)
+I (..\library\Device\Holtek\HT32F5xxxx\Include\system_ht32f5xxxx_01.h)(0x599DAC9A)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_lib.h)(0x5DCD42DC)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f50231_41_libcfg.h)(0x5D455E89)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AD21A)
+I (..\ht32f5xxxx_conf.h)(0x5DCD2F40)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_bftm.h)(0x5CB1B379)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_ckcu.h)(0x5CF65571)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_crc.h)(0x59959B2B)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_div.h)(0x5A9928BD)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_exti.h)(0x5CCFDE6A)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_flash.h)(0x5A17C59F)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_gpio.h)(0x5E756A05)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_tm_type.h)(0x5CEE39AA)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_tm.h)(0x5CF62BB8)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_i2c.h)(0x5EB3A8DB)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_mctm.h)(0x5DCD42DC)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_pwrcu.h)(0x5D455E89)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_rstcu.h)(0x5DCD42DC)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_rtc.h)(0x5CF5EB1D)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_spi.h)(0x5D1EF627)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_usart.h)(0x5CD579A8)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_wdt.h)(0x59959B2B)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_cm0plus_misc.h)(0x574D2641)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_serial.h)(0x5DCD32CE)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_div.h)(0x56C22A05)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_rand.h)(0x57B1BC8E)
+F (..\library\HT32F5xxxx_Driver\src\ht32f5xxxx_bftm.c)(0x5CB1B379)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\ -I ..\library\CMSIS\Include -I ..\library\Device\Holtek\HT32F5xxxx\Include -I ..\library\HT32F5xxxx_Driver\inc -I ..\library\HT32_USBD_Library\inc -I ..\utilities -I ..\User\inc -I ..\utilities\common-I.\RTE\_Target-IC:\Keil_v5\ARM\PACK\Holtek\HT32_DFP\1.0.21\ARM\INC\Holtek\HT32F5xxxx-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DUSE_HT32F59041 -DUSE_HT32_DRIVER -DUSE_HT32F59041_SK -DUSE_HT32F59041 -DUSE_MEM_HT32F59041-o .\ht32\59041\obj\ht32f5xxxx_bftm.o --omf_browse .\ht32\59041\obj\ht32f5xxxx_bftm.crf --depend .\ht32\59041\obj\ht32f5xxxx_bftm.d)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_bftm.h)(0x5CB1B379)
+I (..\library\HT32F5xxxx_Driver\inc\ht32.h)(0x59959B2B)
+I (..\library\Device\Holtek\HT32F5xxxx\Include\ht32f5xxxx_01.h)(0x5EB26249)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_config.h)(0x5DCD42DC)
+I (..\library\CMSIS\Include\core_cm0plus.h)(0x5649CB3A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\library\CMSIS\Include\core_cmInstr.h)(0x5649CB3A)
+I (..\library\CMSIS\Include\core_cmFunc.h)(0x5649CB3A)
+I (..\library\Device\Holtek\HT32F5xxxx\Include\system_ht32f5xxxx_01.h)(0x599DAC9A)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_lib.h)(0x5DCD42DC)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f50231_41_libcfg.h)(0x5D455E89)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AD21A)
+I (..\ht32f5xxxx_conf.h)(0x5DCD2F40)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_adc.h)(0x5E6EE9DB)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_ckcu.h)(0x5CF65571)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_crc.h)(0x59959B2B)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_div.h)(0x5A9928BD)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_exti.h)(0x5CCFDE6A)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_flash.h)(0x5A17C59F)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_gpio.h)(0x5E756A05)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_tm_type.h)(0x5CEE39AA)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_tm.h)(0x5CF62BB8)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_i2c.h)(0x5EB3A8DB)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_mctm.h)(0x5DCD42DC)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_pwrcu.h)(0x5D455E89)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_rstcu.h)(0x5DCD42DC)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_rtc.h)(0x5CF5EB1D)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_spi.h)(0x5D1EF627)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_usart.h)(0x5CD579A8)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_wdt.h)(0x59959B2B)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_cm0plus_misc.h)(0x574D2641)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_serial.h)(0x5DCD32CE)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_div.h)(0x56C22A05)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_rand.h)(0x57B1BC8E)
+F (..\library\HT32F5xxxx_Driver\src\ht32f5xxxx_ckcu.c)(0x5CEE39AA)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\ -I ..\library\CMSIS\Include -I ..\library\Device\Holtek\HT32F5xxxx\Include -I ..\library\HT32F5xxxx_Driver\inc -I ..\library\HT32_USBD_Library\inc -I ..\utilities -I ..\User\inc -I ..\utilities\common-I.\RTE\_Target-IC:\Keil_v5\ARM\PACK\Holtek\HT32_DFP\1.0.21\ARM\INC\Holtek\HT32F5xxxx-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DUSE_HT32F59041 -DUSE_HT32_DRIVER -DUSE_HT32F59041_SK -DUSE_HT32F59041 -DUSE_MEM_HT32F59041-o .\ht32\59041\obj\ht32f5xxxx_ckcu.o --omf_browse .\ht32\59041\obj\ht32f5xxxx_ckcu.crf --depend .\ht32\59041\obj\ht32f5xxxx_ckcu.d)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_ckcu.h)(0x5CF65571)
+I (..\library\HT32F5xxxx_Driver\inc\ht32.h)(0x59959B2B)
+I (..\library\Device\Holtek\HT32F5xxxx\Include\ht32f5xxxx_01.h)(0x5EB26249)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_config.h)(0x5DCD42DC)
+I (..\library\CMSIS\Include\core_cm0plus.h)(0x5649CB3A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\library\CMSIS\Include\core_cmInstr.h)(0x5649CB3A)
+I (..\library\CMSIS\Include\core_cmFunc.h)(0x5649CB3A)
+I (..\library\Device\Holtek\HT32F5xxxx\Include\system_ht32f5xxxx_01.h)(0x599DAC9A)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_lib.h)(0x5DCD42DC)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f50231_41_libcfg.h)(0x5D455E89)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AD21A)
+I (..\ht32f5xxxx_conf.h)(0x5DCD2F40)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_adc.h)(0x5E6EE9DB)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_bftm.h)(0x5CB1B379)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_crc.h)(0x59959B2B)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_div.h)(0x5A9928BD)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_exti.h)(0x5CCFDE6A)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_flash.h)(0x5A17C59F)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_gpio.h)(0x5E756A05)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_tm_type.h)(0x5CEE39AA)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_tm.h)(0x5CF62BB8)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_i2c.h)(0x5EB3A8DB)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_mctm.h)(0x5DCD42DC)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_pwrcu.h)(0x5D455E89)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_rstcu.h)(0x5DCD42DC)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_rtc.h)(0x5CF5EB1D)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_spi.h)(0x5D1EF627)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_usart.h)(0x5CD579A8)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_wdt.h)(0x59959B2B)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_cm0plus_misc.h)(0x574D2641)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_serial.h)(0x5DCD32CE)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_div.h)(0x56C22A05)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_rand.h)(0x57B1BC8E)
+F (..\library\HT32F5xxxx_Driver\src\ht32f5xxxx_crc.c)(0x5CCFDE8A)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\ -I ..\library\CMSIS\Include -I ..\library\Device\Holtek\HT32F5xxxx\Include -I ..\library\HT32F5xxxx_Driver\inc -I ..\library\HT32_USBD_Library\inc -I ..\utilities -I ..\User\inc -I ..\utilities\common-I.\RTE\_Target-IC:\Keil_v5\ARM\PACK\Holtek\HT32_DFP\1.0.21\ARM\INC\Holtek\HT32F5xxxx-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DUSE_HT32F59041 -DUSE_HT32_DRIVER -DUSE_HT32F59041_SK -DUSE_HT32F59041 -DUSE_MEM_HT32F59041-o .\ht32\59041\obj\ht32f5xxxx_crc.o --omf_browse .\ht32\59041\obj\ht32f5xxxx_crc.crf --depend .\ht32\59041\obj\ht32f5xxxx_crc.d)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_crc.h)(0x59959B2B)
+I (..\library\HT32F5xxxx_Driver\inc\ht32.h)(0x59959B2B)
+I (..\library\Device\Holtek\HT32F5xxxx\Include\ht32f5xxxx_01.h)(0x5EB26249)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_config.h)(0x5DCD42DC)
+I (..\library\CMSIS\Include\core_cm0plus.h)(0x5649CB3A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\library\CMSIS\Include\core_cmInstr.h)(0x5649CB3A)
+I (..\library\CMSIS\Include\core_cmFunc.h)(0x5649CB3A)
+I (..\library\Device\Holtek\HT32F5xxxx\Include\system_ht32f5xxxx_01.h)(0x599DAC9A)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_lib.h)(0x5DCD42DC)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f50231_41_libcfg.h)(0x5D455E89)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AD21A)
+I (..\ht32f5xxxx_conf.h)(0x5DCD2F40)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_adc.h)(0x5E6EE9DB)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_bftm.h)(0x5CB1B379)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_ckcu.h)(0x5CF65571)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_div.h)(0x5A9928BD)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_exti.h)(0x5CCFDE6A)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_flash.h)(0x5A17C59F)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_gpio.h)(0x5E756A05)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_tm_type.h)(0x5CEE39AA)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_tm.h)(0x5CF62BB8)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_i2c.h)(0x5EB3A8DB)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_mctm.h)(0x5DCD42DC)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_pwrcu.h)(0x5D455E89)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_rstcu.h)(0x5DCD42DC)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_rtc.h)(0x5CF5EB1D)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_spi.h)(0x5D1EF627)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_usart.h)(0x5CD579A8)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_wdt.h)(0x59959B2B)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_cm0plus_misc.h)(0x574D2641)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_serial.h)(0x5DCD32CE)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_div.h)(0x56C22A05)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_rand.h)(0x57B1BC8E)
+F (..\library\HT32F5xxxx_Driver\src\ht32f5xxxx_div.c)(0x59959B2B)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\ -I ..\library\CMSIS\Include -I ..\library\Device\Holtek\HT32F5xxxx\Include -I ..\library\HT32F5xxxx_Driver\inc -I ..\library\HT32_USBD_Library\inc -I ..\utilities -I ..\User\inc -I ..\utilities\common-I.\RTE\_Target-IC:\Keil_v5\ARM\PACK\Holtek\HT32_DFP\1.0.21\ARM\INC\Holtek\HT32F5xxxx-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DUSE_HT32F59041 -DUSE_HT32_DRIVER -DUSE_HT32F59041_SK -DUSE_HT32F59041 -DUSE_MEM_HT32F59041-o .\ht32\59041\obj\ht32f5xxxx_div.o --omf_browse .\ht32\59041\obj\ht32f5xxxx_div.crf --depend .\ht32\59041\obj\ht32f5xxxx_div.d)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_div.h)(0x5A9928BD)
+I (..\library\HT32F5xxxx_Driver\inc\ht32.h)(0x59959B2B)
+I (..\library\Device\Holtek\HT32F5xxxx\Include\ht32f5xxxx_01.h)(0x5EB26249)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_config.h)(0x5DCD42DC)
+I (..\library\CMSIS\Include\core_cm0plus.h)(0x5649CB3A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\library\CMSIS\Include\core_cmInstr.h)(0x5649CB3A)
+I (..\library\CMSIS\Include\core_cmFunc.h)(0x5649CB3A)
+I (..\library\Device\Holtek\HT32F5xxxx\Include\system_ht32f5xxxx_01.h)(0x599DAC9A)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_lib.h)(0x5DCD42DC)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f50231_41_libcfg.h)(0x5D455E89)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AD21A)
+I (..\ht32f5xxxx_conf.h)(0x5DCD2F40)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_adc.h)(0x5E6EE9DB)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_bftm.h)(0x5CB1B379)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_ckcu.h)(0x5CF65571)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_crc.h)(0x59959B2B)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_exti.h)(0x5CCFDE6A)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_flash.h)(0x5A17C59F)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_gpio.h)(0x5E756A05)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_tm_type.h)(0x5CEE39AA)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_tm.h)(0x5CF62BB8)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_i2c.h)(0x5EB3A8DB)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_mctm.h)(0x5DCD42DC)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_pwrcu.h)(0x5D455E89)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_rstcu.h)(0x5DCD42DC)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_rtc.h)(0x5CF5EB1D)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_spi.h)(0x5D1EF627)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_usart.h)(0x5CD579A8)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_wdt.h)(0x59959B2B)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_cm0plus_misc.h)(0x574D2641)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_serial.h)(0x5DCD32CE)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_div.h)(0x56C22A05)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_rand.h)(0x57B1BC8E)
+F (..\library\HT32F5xxxx_Driver\src\ht32f5xxxx_exti.c)(0x5CCFDE8A)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\ -I ..\library\CMSIS\Include -I ..\library\Device\Holtek\HT32F5xxxx\Include -I ..\library\HT32F5xxxx_Driver\inc -I ..\library\HT32_USBD_Library\inc -I ..\utilities -I ..\User\inc -I ..\utilities\common-I.\RTE\_Target-IC:\Keil_v5\ARM\PACK\Holtek\HT32_DFP\1.0.21\ARM\INC\Holtek\HT32F5xxxx-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DUSE_HT32F59041 -DUSE_HT32_DRIVER -DUSE_HT32F59041_SK -DUSE_HT32F59041 -DUSE_MEM_HT32F59041-o .\ht32\59041\obj\ht32f5xxxx_exti.o --omf_browse .\ht32\59041\obj\ht32f5xxxx_exti.crf --depend .\ht32\59041\obj\ht32f5xxxx_exti.d)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_exti.h)(0x5CCFDE6A)
+I (..\library\HT32F5xxxx_Driver\inc\ht32.h)(0x59959B2B)
+I (..\library\Device\Holtek\HT32F5xxxx\Include\ht32f5xxxx_01.h)(0x5EB26249)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_config.h)(0x5DCD42DC)
+I (..\library\CMSIS\Include\core_cm0plus.h)(0x5649CB3A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\library\CMSIS\Include\core_cmInstr.h)(0x5649CB3A)
+I (..\library\CMSIS\Include\core_cmFunc.h)(0x5649CB3A)
+I (..\library\Device\Holtek\HT32F5xxxx\Include\system_ht32f5xxxx_01.h)(0x599DAC9A)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_lib.h)(0x5DCD42DC)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f50231_41_libcfg.h)(0x5D455E89)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AD21A)
+I (..\ht32f5xxxx_conf.h)(0x5DCD2F40)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_adc.h)(0x5E6EE9DB)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_bftm.h)(0x5CB1B379)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_ckcu.h)(0x5CF65571)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_crc.h)(0x59959B2B)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_div.h)(0x5A9928BD)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_flash.h)(0x5A17C59F)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_gpio.h)(0x5E756A05)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_tm_type.h)(0x5CEE39AA)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_tm.h)(0x5CF62BB8)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_i2c.h)(0x5EB3A8DB)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_mctm.h)(0x5DCD42DC)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_pwrcu.h)(0x5D455E89)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_rstcu.h)(0x5DCD42DC)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_rtc.h)(0x5CF5EB1D)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_spi.h)(0x5D1EF627)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_usart.h)(0x5CD579A8)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_wdt.h)(0x59959B2B)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_cm0plus_misc.h)(0x574D2641)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_serial.h)(0x5DCD32CE)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_div.h)(0x56C22A05)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_rand.h)(0x57B1BC8E)
+F (..\library\HT32F5xxxx_Driver\src\ht32f5xxxx_flash.c)(0x5CCFDE8A)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\ -I ..\library\CMSIS\Include -I ..\library\Device\Holtek\HT32F5xxxx\Include -I ..\library\HT32F5xxxx_Driver\inc -I ..\library\HT32_USBD_Library\inc -I ..\utilities -I ..\User\inc -I ..\utilities\common-I.\RTE\_Target-IC:\Keil_v5\ARM\PACK\Holtek\HT32_DFP\1.0.21\ARM\INC\Holtek\HT32F5xxxx-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DUSE_HT32F59041 -DUSE_HT32_DRIVER -DUSE_HT32F59041_SK -DUSE_HT32F59041 -DUSE_MEM_HT32F59041-o .\ht32\59041\obj\ht32f5xxxx_flash.o --omf_browse .\ht32\59041\obj\ht32f5xxxx_flash.crf --depend .\ht32\59041\obj\ht32f5xxxx_flash.d)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_flash.h)(0x5A17C59F)
+I (..\library\HT32F5xxxx_Driver\inc\ht32.h)(0x59959B2B)
+I (..\library\Device\Holtek\HT32F5xxxx\Include\ht32f5xxxx_01.h)(0x5EB26249)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_config.h)(0x5DCD42DC)
+I (..\library\CMSIS\Include\core_cm0plus.h)(0x5649CB3A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\library\CMSIS\Include\core_cmInstr.h)(0x5649CB3A)
+I (..\library\CMSIS\Include\core_cmFunc.h)(0x5649CB3A)
+I (..\library\Device\Holtek\HT32F5xxxx\Include\system_ht32f5xxxx_01.h)(0x599DAC9A)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_lib.h)(0x5DCD42DC)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f50231_41_libcfg.h)(0x5D455E89)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AD21A)
+I (..\ht32f5xxxx_conf.h)(0x5DCD2F40)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_adc.h)(0x5E6EE9DB)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_bftm.h)(0x5CB1B379)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_ckcu.h)(0x5CF65571)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_crc.h)(0x59959B2B)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_div.h)(0x5A9928BD)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_exti.h)(0x5CCFDE6A)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_gpio.h)(0x5E756A05)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_tm_type.h)(0x5CEE39AA)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_tm.h)(0x5CF62BB8)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_i2c.h)(0x5EB3A8DB)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_mctm.h)(0x5DCD42DC)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_pwrcu.h)(0x5D455E89)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_rstcu.h)(0x5DCD42DC)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_rtc.h)(0x5CF5EB1D)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_spi.h)(0x5D1EF627)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_usart.h)(0x5CD579A8)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_wdt.h)(0x59959B2B)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_cm0plus_misc.h)(0x574D2641)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_serial.h)(0x5DCD32CE)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_div.h)(0x56C22A05)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_rand.h)(0x57B1BC8E)
+F (..\library\HT32F5xxxx_Driver\src\ht32f5xxxx_gpio.c)(0x5DD50162)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\ -I ..\library\CMSIS\Include -I ..\library\Device\Holtek\HT32F5xxxx\Include -I ..\library\HT32F5xxxx_Driver\inc -I ..\library\HT32_USBD_Library\inc -I ..\utilities -I ..\User\inc -I ..\utilities\common-I.\RTE\_Target-IC:\Keil_v5\ARM\PACK\Holtek\HT32_DFP\1.0.21\ARM\INC\Holtek\HT32F5xxxx-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DUSE_HT32F59041 -DUSE_HT32_DRIVER -DUSE_HT32F59041_SK -DUSE_HT32F59041 -DUSE_MEM_HT32F59041-o .\ht32\59041\obj\ht32f5xxxx_gpio.o --omf_browse .\ht32\59041\obj\ht32f5xxxx_gpio.crf --depend .\ht32\59041\obj\ht32f5xxxx_gpio.d)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_gpio.h)(0x5E756A05)
+I (..\library\HT32F5xxxx_Driver\inc\ht32.h)(0x59959B2B)
+I (..\library\Device\Holtek\HT32F5xxxx\Include\ht32f5xxxx_01.h)(0x5EB26249)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_config.h)(0x5DCD42DC)
+I (..\library\CMSIS\Include\core_cm0plus.h)(0x5649CB3A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\library\CMSIS\Include\core_cmInstr.h)(0x5649CB3A)
+I (..\library\CMSIS\Include\core_cmFunc.h)(0x5649CB3A)
+I (..\library\Device\Holtek\HT32F5xxxx\Include\system_ht32f5xxxx_01.h)(0x599DAC9A)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_lib.h)(0x5DCD42DC)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f50231_41_libcfg.h)(0x5D455E89)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AD21A)
+I (..\ht32f5xxxx_conf.h)(0x5DCD2F40)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_adc.h)(0x5E6EE9DB)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_bftm.h)(0x5CB1B379)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_ckcu.h)(0x5CF65571)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_crc.h)(0x59959B2B)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_div.h)(0x5A9928BD)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_exti.h)(0x5CCFDE6A)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_flash.h)(0x5A17C59F)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_tm_type.h)(0x5CEE39AA)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_tm.h)(0x5CF62BB8)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_i2c.h)(0x5EB3A8DB)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_mctm.h)(0x5DCD42DC)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_pwrcu.h)(0x5D455E89)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_rstcu.h)(0x5DCD42DC)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_rtc.h)(0x5CF5EB1D)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_spi.h)(0x5D1EF627)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_usart.h)(0x5CD579A8)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_wdt.h)(0x59959B2B)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_cm0plus_misc.h)(0x574D2641)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_serial.h)(0x5DCD32CE)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_div.h)(0x56C22A05)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_rand.h)(0x57B1BC8E)
+F (..\library\HT32F5xxxx_Driver\src\ht32f5xxxx_i2c.c)(0x5A4E16AC)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\ -I ..\library\CMSIS\Include -I ..\library\Device\Holtek\HT32F5xxxx\Include -I ..\library\HT32F5xxxx_Driver\inc -I ..\library\HT32_USBD_Library\inc -I ..\utilities -I ..\User\inc -I ..\utilities\common-I.\RTE\_Target-IC:\Keil_v5\ARM\PACK\Holtek\HT32_DFP\1.0.21\ARM\INC\Holtek\HT32F5xxxx-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DUSE_HT32F59041 -DUSE_HT32_DRIVER -DUSE_HT32F59041_SK -DUSE_HT32F59041 -DUSE_MEM_HT32F59041-o .\ht32\59041\obj\ht32f5xxxx_i2c.o --omf_browse .\ht32\59041\obj\ht32f5xxxx_i2c.crf --depend .\ht32\59041\obj\ht32f5xxxx_i2c.d)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_i2c.h)(0x5EB3A8DB)
+I (..\library\HT32F5xxxx_Driver\inc\ht32.h)(0x59959B2B)
+I (..\library\Device\Holtek\HT32F5xxxx\Include\ht32f5xxxx_01.h)(0x5EB26249)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_config.h)(0x5DCD42DC)
+I (..\library\CMSIS\Include\core_cm0plus.h)(0x5649CB3A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\library\CMSIS\Include\core_cmInstr.h)(0x5649CB3A)
+I (..\library\CMSIS\Include\core_cmFunc.h)(0x5649CB3A)
+I (..\library\Device\Holtek\HT32F5xxxx\Include\system_ht32f5xxxx_01.h)(0x599DAC9A)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_lib.h)(0x5DCD42DC)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f50231_41_libcfg.h)(0x5D455E89)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AD21A)
+I (..\ht32f5xxxx_conf.h)(0x5DCD2F40)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_adc.h)(0x5E6EE9DB)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_bftm.h)(0x5CB1B379)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_ckcu.h)(0x5CF65571)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_crc.h)(0x59959B2B)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_div.h)(0x5A9928BD)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_exti.h)(0x5CCFDE6A)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_flash.h)(0x5A17C59F)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_gpio.h)(0x5E756A05)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_tm_type.h)(0x5CEE39AA)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_tm.h)(0x5CF62BB8)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_mctm.h)(0x5DCD42DC)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_pwrcu.h)(0x5D455E89)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_rstcu.h)(0x5DCD42DC)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_rtc.h)(0x5CF5EB1D)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_spi.h)(0x5D1EF627)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_usart.h)(0x5CD579A8)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_wdt.h)(0x59959B2B)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_cm0plus_misc.h)(0x574D2641)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_serial.h)(0x5DCD32CE)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_div.h)(0x56C22A05)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_rand.h)(0x57B1BC8E)
+F (..\library\HT32F5xxxx_Driver\src\ht32f5xxxx_mctm.c)(0x5DCD42DC)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\ -I ..\library\CMSIS\Include -I ..\library\Device\Holtek\HT32F5xxxx\Include -I ..\library\HT32F5xxxx_Driver\inc -I ..\library\HT32_USBD_Library\inc -I ..\utilities -I ..\User\inc -I ..\utilities\common-I.\RTE\_Target-IC:\Keil_v5\ARM\PACK\Holtek\HT32_DFP\1.0.21\ARM\INC\Holtek\HT32F5xxxx-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DUSE_HT32F59041 -DUSE_HT32_DRIVER -DUSE_HT32F59041_SK -DUSE_HT32F59041 -DUSE_MEM_HT32F59041-o .\ht32\59041\obj\ht32f5xxxx_mctm.o --omf_browse .\ht32\59041\obj\ht32f5xxxx_mctm.crf --depend .\ht32\59041\obj\ht32f5xxxx_mctm.d)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_mctm.h)(0x5DCD42DC)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_tm.h)(0x5CF62BB8)
+I (..\library\HT32F5xxxx_Driver\inc\ht32.h)(0x59959B2B)
+I (..\library\Device\Holtek\HT32F5xxxx\Include\ht32f5xxxx_01.h)(0x5EB26249)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_config.h)(0x5DCD42DC)
+I (..\library\CMSIS\Include\core_cm0plus.h)(0x5649CB3A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\library\CMSIS\Include\core_cmInstr.h)(0x5649CB3A)
+I (..\library\CMSIS\Include\core_cmFunc.h)(0x5649CB3A)
+I (..\library\Device\Holtek\HT32F5xxxx\Include\system_ht32f5xxxx_01.h)(0x599DAC9A)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_lib.h)(0x5DCD42DC)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f50231_41_libcfg.h)(0x5D455E89)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AD21A)
+I (..\ht32f5xxxx_conf.h)(0x5DCD2F40)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_adc.h)(0x5E6EE9DB)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_bftm.h)(0x5CB1B379)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_ckcu.h)(0x5CF65571)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_crc.h)(0x59959B2B)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_div.h)(0x5A9928BD)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_exti.h)(0x5CCFDE6A)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_flash.h)(0x5A17C59F)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_gpio.h)(0x5E756A05)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_tm_type.h)(0x5CEE39AA)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_i2c.h)(0x5EB3A8DB)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_pwrcu.h)(0x5D455E89)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_rstcu.h)(0x5DCD42DC)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_rtc.h)(0x5CF5EB1D)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_spi.h)(0x5D1EF627)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_usart.h)(0x5CD579A8)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_wdt.h)(0x59959B2B)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_cm0plus_misc.h)(0x574D2641)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_serial.h)(0x5DCD32CE)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_div.h)(0x56C22A05)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_rand.h)(0x57B1BC8E)
+F (..\library\HT32F5xxxx_Driver\src\ht32f5xxxx_pwrcu.c)(0x5D92E79B)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\ -I ..\library\CMSIS\Include -I ..\library\Device\Holtek\HT32F5xxxx\Include -I ..\library\HT32F5xxxx_Driver\inc -I ..\library\HT32_USBD_Library\inc -I ..\utilities -I ..\User\inc -I ..\utilities\common-I.\RTE\_Target-IC:\Keil_v5\ARM\PACK\Holtek\HT32_DFP\1.0.21\ARM\INC\Holtek\HT32F5xxxx-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DUSE_HT32F59041 -DUSE_HT32_DRIVER -DUSE_HT32F59041_SK -DUSE_HT32F59041 -DUSE_MEM_HT32F59041-o .\ht32\59041\obj\ht32f5xxxx_pwrcu.o --omf_browse .\ht32\59041\obj\ht32f5xxxx_pwrcu.crf --depend .\ht32\59041\obj\ht32f5xxxx_pwrcu.d)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_pwrcu.h)(0x5D455E89)
+I (..\library\HT32F5xxxx_Driver\inc\ht32.h)(0x59959B2B)
+I (..\library\Device\Holtek\HT32F5xxxx\Include\ht32f5xxxx_01.h)(0x5EB26249)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_config.h)(0x5DCD42DC)
+I (..\library\CMSIS\Include\core_cm0plus.h)(0x5649CB3A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\library\CMSIS\Include\core_cmInstr.h)(0x5649CB3A)
+I (..\library\CMSIS\Include\core_cmFunc.h)(0x5649CB3A)
+I (..\library\Device\Holtek\HT32F5xxxx\Include\system_ht32f5xxxx_01.h)(0x599DAC9A)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_lib.h)(0x5DCD42DC)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f50231_41_libcfg.h)(0x5D455E89)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AD21A)
+I (..\ht32f5xxxx_conf.h)(0x5DCD2F40)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_adc.h)(0x5E6EE9DB)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_bftm.h)(0x5CB1B379)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_ckcu.h)(0x5CF65571)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_crc.h)(0x59959B2B)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_div.h)(0x5A9928BD)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_exti.h)(0x5CCFDE6A)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_flash.h)(0x5A17C59F)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_gpio.h)(0x5E756A05)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_tm_type.h)(0x5CEE39AA)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_tm.h)(0x5CF62BB8)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_i2c.h)(0x5EB3A8DB)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_mctm.h)(0x5DCD42DC)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_rstcu.h)(0x5DCD42DC)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_rtc.h)(0x5CF5EB1D)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_spi.h)(0x5D1EF627)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_usart.h)(0x5CD579A8)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_wdt.h)(0x59959B2B)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_cm0plus_misc.h)(0x574D2641)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_serial.h)(0x5DCD32CE)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_div.h)(0x56C22A05)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_rand.h)(0x57B1BC8E)
+F (..\library\HT32F5xxxx_Driver\src\ht32f5xxxx_rstcu.c)(0x59959B2B)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\ -I ..\library\CMSIS\Include -I ..\library\Device\Holtek\HT32F5xxxx\Include -I ..\library\HT32F5xxxx_Driver\inc -I ..\library\HT32_USBD_Library\inc -I ..\utilities -I ..\User\inc -I ..\utilities\common-I.\RTE\_Target-IC:\Keil_v5\ARM\PACK\Holtek\HT32_DFP\1.0.21\ARM\INC\Holtek\HT32F5xxxx-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DUSE_HT32F59041 -DUSE_HT32_DRIVER -DUSE_HT32F59041_SK -DUSE_HT32F59041 -DUSE_MEM_HT32F59041-o .\ht32\59041\obj\ht32f5xxxx_rstcu.o --omf_browse .\ht32\59041\obj\ht32f5xxxx_rstcu.crf --depend .\ht32\59041\obj\ht32f5xxxx_rstcu.d)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_rstcu.h)(0x5DCD42DC)
+I (..\library\HT32F5xxxx_Driver\inc\ht32.h)(0x59959B2B)
+I (..\library\Device\Holtek\HT32F5xxxx\Include\ht32f5xxxx_01.h)(0x5EB26249)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_config.h)(0x5DCD42DC)
+I (..\library\CMSIS\Include\core_cm0plus.h)(0x5649CB3A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\library\CMSIS\Include\core_cmInstr.h)(0x5649CB3A)
+I (..\library\CMSIS\Include\core_cmFunc.h)(0x5649CB3A)
+I (..\library\Device\Holtek\HT32F5xxxx\Include\system_ht32f5xxxx_01.h)(0x599DAC9A)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_lib.h)(0x5DCD42DC)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f50231_41_libcfg.h)(0x5D455E89)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AD21A)
+I (..\ht32f5xxxx_conf.h)(0x5DCD2F40)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_adc.h)(0x5E6EE9DB)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_bftm.h)(0x5CB1B379)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_ckcu.h)(0x5CF65571)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_crc.h)(0x59959B2B)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_div.h)(0x5A9928BD)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_exti.h)(0x5CCFDE6A)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_flash.h)(0x5A17C59F)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_gpio.h)(0x5E756A05)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_tm_type.h)(0x5CEE39AA)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_tm.h)(0x5CF62BB8)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_i2c.h)(0x5EB3A8DB)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_mctm.h)(0x5DCD42DC)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_pwrcu.h)(0x5D455E89)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_rtc.h)(0x5CF5EB1D)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_spi.h)(0x5D1EF627)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_usart.h)(0x5CD579A8)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_wdt.h)(0x59959B2B)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_cm0plus_misc.h)(0x574D2641)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_serial.h)(0x5DCD32CE)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_div.h)(0x56C22A05)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_rand.h)(0x57B1BC8E)
+F (..\library\HT32F5xxxx_Driver\src\ht32f5xxxx_rtc.c)(0x5A37AFCA)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\ -I ..\library\CMSIS\Include -I ..\library\Device\Holtek\HT32F5xxxx\Include -I ..\library\HT32F5xxxx_Driver\inc -I ..\library\HT32_USBD_Library\inc -I ..\utilities -I ..\User\inc -I ..\utilities\common-I.\RTE\_Target-IC:\Keil_v5\ARM\PACK\Holtek\HT32_DFP\1.0.21\ARM\INC\Holtek\HT32F5xxxx-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DUSE_HT32F59041 -DUSE_HT32_DRIVER -DUSE_HT32F59041_SK -DUSE_HT32F59041 -DUSE_MEM_HT32F59041-o .\ht32\59041\obj\ht32f5xxxx_rtc.o --omf_browse .\ht32\59041\obj\ht32f5xxxx_rtc.crf --depend .\ht32\59041\obj\ht32f5xxxx_rtc.d)
+I (..\library\HT32F5xxxx_Driver\inc\ht32.h)(0x59959B2B)
+I (..\library\Device\Holtek\HT32F5xxxx\Include\ht32f5xxxx_01.h)(0x5EB26249)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_config.h)(0x5DCD42DC)
+I (..\library\CMSIS\Include\core_cm0plus.h)(0x5649CB3A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\library\CMSIS\Include\core_cmInstr.h)(0x5649CB3A)
+I (..\library\CMSIS\Include\core_cmFunc.h)(0x5649CB3A)
+I (..\library\Device\Holtek\HT32F5xxxx\Include\system_ht32f5xxxx_01.h)(0x599DAC9A)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_lib.h)(0x5DCD42DC)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f50231_41_libcfg.h)(0x5D455E89)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AD21A)
+I (..\ht32f5xxxx_conf.h)(0x5DCD2F40)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_adc.h)(0x5E6EE9DB)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_bftm.h)(0x5CB1B379)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_ckcu.h)(0x5CF65571)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_crc.h)(0x59959B2B)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_div.h)(0x5A9928BD)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_exti.h)(0x5CCFDE6A)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_flash.h)(0x5A17C59F)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_gpio.h)(0x5E756A05)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_tm_type.h)(0x5CEE39AA)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_tm.h)(0x5CF62BB8)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_i2c.h)(0x5EB3A8DB)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_mctm.h)(0x5DCD42DC)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_pwrcu.h)(0x5D455E89)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_rstcu.h)(0x5DCD42DC)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_rtc.h)(0x5CF5EB1D)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_spi.h)(0x5D1EF627)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_usart.h)(0x5CD579A8)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_wdt.h)(0x59959B2B)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_cm0plus_misc.h)(0x574D2641)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_serial.h)(0x5DCD32CE)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_div.h)(0x56C22A05)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_rand.h)(0x57B1BC8E)
+F (..\library\HT32F5xxxx_Driver\src\ht32f5xxxx_spi.c)(0x5D1EF627)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\ -I ..\library\CMSIS\Include -I ..\library\Device\Holtek\HT32F5xxxx\Include -I ..\library\HT32F5xxxx_Driver\inc -I ..\library\HT32_USBD_Library\inc -I ..\utilities -I ..\User\inc -I ..\utilities\common-I.\RTE\_Target-IC:\Keil_v5\ARM\PACK\Holtek\HT32_DFP\1.0.21\ARM\INC\Holtek\HT32F5xxxx-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DUSE_HT32F59041 -DUSE_HT32_DRIVER -DUSE_HT32F59041_SK -DUSE_HT32F59041 -DUSE_MEM_HT32F59041-o .\ht32\59041\obj\ht32f5xxxx_spi.o --omf_browse .\ht32\59041\obj\ht32f5xxxx_spi.crf --depend .\ht32\59041\obj\ht32f5xxxx_spi.d)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_spi.h)(0x5D1EF627)
+I (..\library\HT32F5xxxx_Driver\inc\ht32.h)(0x59959B2B)
+I (..\library\Device\Holtek\HT32F5xxxx\Include\ht32f5xxxx_01.h)(0x5EB26249)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_config.h)(0x5DCD42DC)
+I (..\library\CMSIS\Include\core_cm0plus.h)(0x5649CB3A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\library\CMSIS\Include\core_cmInstr.h)(0x5649CB3A)
+I (..\library\CMSIS\Include\core_cmFunc.h)(0x5649CB3A)
+I (..\library\Device\Holtek\HT32F5xxxx\Include\system_ht32f5xxxx_01.h)(0x599DAC9A)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_lib.h)(0x5DCD42DC)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f50231_41_libcfg.h)(0x5D455E89)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AD21A)
+I (..\ht32f5xxxx_conf.h)(0x5DCD2F40)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_adc.h)(0x5E6EE9DB)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_bftm.h)(0x5CB1B379)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_ckcu.h)(0x5CF65571)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_crc.h)(0x59959B2B)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_div.h)(0x5A9928BD)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_exti.h)(0x5CCFDE6A)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_flash.h)(0x5A17C59F)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_gpio.h)(0x5E756A05)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_tm_type.h)(0x5CEE39AA)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_tm.h)(0x5CF62BB8)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_i2c.h)(0x5EB3A8DB)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_mctm.h)(0x5DCD42DC)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_pwrcu.h)(0x5D455E89)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_rstcu.h)(0x5DCD42DC)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_rtc.h)(0x5CF5EB1D)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_usart.h)(0x5CD579A8)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_wdt.h)(0x59959B2B)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_cm0plus_misc.h)(0x574D2641)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_serial.h)(0x5DCD32CE)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_div.h)(0x56C22A05)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_rand.h)(0x57B1BC8E)
+F (..\library\HT32F5xxxx_Driver\src\ht32f5xxxx_tm.c)(0x5CF5EB1D)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\ -I ..\library\CMSIS\Include -I ..\library\Device\Holtek\HT32F5xxxx\Include -I ..\library\HT32F5xxxx_Driver\inc -I ..\library\HT32_USBD_Library\inc -I ..\utilities -I ..\User\inc -I ..\utilities\common-I.\RTE\_Target-IC:\Keil_v5\ARM\PACK\Holtek\HT32_DFP\1.0.21\ARM\INC\Holtek\HT32F5xxxx-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DUSE_HT32F59041 -DUSE_HT32_DRIVER -DUSE_HT32F59041_SK -DUSE_HT32F59041 -DUSE_MEM_HT32F59041-o .\ht32\59041\obj\ht32f5xxxx_tm.o --omf_browse .\ht32\59041\obj\ht32f5xxxx_tm.crf --depend .\ht32\59041\obj\ht32f5xxxx_tm.d)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_tm.h)(0x5CF62BB8)
+I (..\library\HT32F5xxxx_Driver\inc\ht32.h)(0x59959B2B)
+I (..\library\Device\Holtek\HT32F5xxxx\Include\ht32f5xxxx_01.h)(0x5EB26249)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_config.h)(0x5DCD42DC)
+I (..\library\CMSIS\Include\core_cm0plus.h)(0x5649CB3A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\library\CMSIS\Include\core_cmInstr.h)(0x5649CB3A)
+I (..\library\CMSIS\Include\core_cmFunc.h)(0x5649CB3A)
+I (..\library\Device\Holtek\HT32F5xxxx\Include\system_ht32f5xxxx_01.h)(0x599DAC9A)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_lib.h)(0x5DCD42DC)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f50231_41_libcfg.h)(0x5D455E89)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AD21A)
+I (..\ht32f5xxxx_conf.h)(0x5DCD2F40)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_adc.h)(0x5E6EE9DB)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_bftm.h)(0x5CB1B379)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_ckcu.h)(0x5CF65571)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_crc.h)(0x59959B2B)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_div.h)(0x5A9928BD)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_exti.h)(0x5CCFDE6A)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_flash.h)(0x5A17C59F)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_gpio.h)(0x5E756A05)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_tm_type.h)(0x5CEE39AA)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_i2c.h)(0x5EB3A8DB)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_mctm.h)(0x5DCD42DC)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_pwrcu.h)(0x5D455E89)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_rstcu.h)(0x5DCD42DC)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_rtc.h)(0x5CF5EB1D)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_spi.h)(0x5D1EF627)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_usart.h)(0x5CD579A8)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_wdt.h)(0x59959B2B)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_cm0plus_misc.h)(0x574D2641)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_serial.h)(0x5DCD32CE)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_div.h)(0x56C22A05)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_rand.h)(0x57B1BC8E)
+F (..\library\HT32F5xxxx_Driver\src\ht32f5xxxx_usart.c)(0x5A17C59F)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\ -I ..\library\CMSIS\Include -I ..\library\Device\Holtek\HT32F5xxxx\Include -I ..\library\HT32F5xxxx_Driver\inc -I ..\library\HT32_USBD_Library\inc -I ..\utilities -I ..\User\inc -I ..\utilities\common-I.\RTE\_Target-IC:\Keil_v5\ARM\PACK\Holtek\HT32_DFP\1.0.21\ARM\INC\Holtek\HT32F5xxxx-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DUSE_HT32F59041 -DUSE_HT32_DRIVER -DUSE_HT32F59041_SK -DUSE_HT32F59041 -DUSE_MEM_HT32F59041-o .\ht32\59041\obj\ht32f5xxxx_usart.o --omf_browse .\ht32\59041\obj\ht32f5xxxx_usart.crf --depend .\ht32\59041\obj\ht32f5xxxx_usart.d)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_usart.h)(0x5CD579A8)
+I (..\library\HT32F5xxxx_Driver\inc\HT32.h)(0x59959B2B)
+I (..\library\Device\Holtek\HT32F5xxxx\Include\ht32f5xxxx_01.h)(0x5EB26249)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_config.h)(0x5DCD42DC)
+I (..\library\CMSIS\Include\core_cm0plus.h)(0x5649CB3A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\library\CMSIS\Include\core_cmInstr.h)(0x5649CB3A)
+I (..\library\CMSIS\Include\core_cmFunc.h)(0x5649CB3A)
+I (..\library\Device\Holtek\HT32F5xxxx\Include\system_ht32f5xxxx_01.h)(0x599DAC9A)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_lib.h)(0x5DCD42DC)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f50231_41_libcfg.h)(0x5D455E89)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AD21A)
+I (..\ht32f5xxxx_conf.h)(0x5DCD2F40)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_adc.h)(0x5E6EE9DB)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_bftm.h)(0x5CB1B379)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_ckcu.h)(0x5CF65571)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_crc.h)(0x59959B2B)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_div.h)(0x5A9928BD)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_exti.h)(0x5CCFDE6A)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_flash.h)(0x5A17C59F)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_gpio.h)(0x5E756A05)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_tm_type.h)(0x5CEE39AA)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_tm.h)(0x5CF62BB8)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_i2c.h)(0x5EB3A8DB)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_mctm.h)(0x5DCD42DC)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_pwrcu.h)(0x5D455E89)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_rstcu.h)(0x5DCD42DC)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_rtc.h)(0x5CF5EB1D)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_spi.h)(0x5D1EF627)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_wdt.h)(0x59959B2B)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_cm0plus_misc.h)(0x574D2641)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_serial.h)(0x5DCD32CE)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_div.h)(0x56C22A05)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_rand.h)(0x57B1BC8E)
+F (..\library\HT32F5xxxx_Driver\src\ht32f5xxxx_wdt.c)(0x5AFA5AC3)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\ -I ..\library\CMSIS\Include -I ..\library\Device\Holtek\HT32F5xxxx\Include -I ..\library\HT32F5xxxx_Driver\inc -I ..\library\HT32_USBD_Library\inc -I ..\utilities -I ..\User\inc -I ..\utilities\common-I.\RTE\_Target-IC:\Keil_v5\ARM\PACK\Holtek\HT32_DFP\1.0.21\ARM\INC\Holtek\HT32F5xxxx-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DUSE_HT32F59041 -DUSE_HT32_DRIVER -DUSE_HT32F59041_SK -DUSE_HT32F59041 -DUSE_MEM_HT32F59041-o .\ht32\59041\obj\ht32f5xxxx_wdt.o --omf_browse .\ht32\59041\obj\ht32f5xxxx_wdt.crf --depend .\ht32\59041\obj\ht32f5xxxx_wdt.d)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_wdt.h)(0x59959B2B)
+I (..\library\HT32F5xxxx_Driver\inc\ht32.h)(0x59959B2B)
+I (..\library\Device\Holtek\HT32F5xxxx\Include\ht32f5xxxx_01.h)(0x5EB26249)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_config.h)(0x5DCD42DC)
+I (..\library\CMSIS\Include\core_cm0plus.h)(0x5649CB3A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\library\CMSIS\Include\core_cmInstr.h)(0x5649CB3A)
+I (..\library\CMSIS\Include\core_cmFunc.h)(0x5649CB3A)
+I (..\library\Device\Holtek\HT32F5xxxx\Include\system_ht32f5xxxx_01.h)(0x599DAC9A)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_lib.h)(0x5DCD42DC)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f50231_41_libcfg.h)(0x5D455E89)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AD21A)
+I (..\ht32f5xxxx_conf.h)(0x5DCD2F40)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_adc.h)(0x5E6EE9DB)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_bftm.h)(0x5CB1B379)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_ckcu.h)(0x5CF65571)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_crc.h)(0x59959B2B)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_div.h)(0x5A9928BD)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_exti.h)(0x5CCFDE6A)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_flash.h)(0x5A17C59F)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_gpio.h)(0x5E756A05)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_tm_type.h)(0x5CEE39AA)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_tm.h)(0x5CF62BB8)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_i2c.h)(0x5EB3A8DB)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_mctm.h)(0x5DCD42DC)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_pwrcu.h)(0x5D455E89)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_rstcu.h)(0x5DCD42DC)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_rtc.h)(0x5CF5EB1D)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_spi.h)(0x5D1EF627)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_usart.h)(0x5CD579A8)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_cm0plus_misc.h)(0x574D2641)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_serial.h)(0x5DCD32CE)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_div.h)(0x56C22A05)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_rand.h)(0x57B1BC8E)
+F (..\library\HT32F5xxxx_Driver\src\ht32_retarget.c)(0x5DC5C69D)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\ -I ..\library\CMSIS\Include -I ..\library\Device\Holtek\HT32F5xxxx\Include -I ..\library\HT32F5xxxx_Driver\inc -I ..\library\HT32_USBD_Library\inc -I ..\utilities -I ..\User\inc -I ..\utilities\common-I.\RTE\_Target-IC:\Keil_v5\ARM\PACK\Holtek\HT32_DFP\1.0.21\ARM\INC\Holtek\HT32F5xxxx-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DUSE_HT32F59041 -DUSE_HT32_DRIVER -DUSE_HT32F59041_SK -DUSE_HT32F59041 -DUSE_MEM_HT32F59041-o .\ht32\59041\obj\ht32_retarget.o --omf_browse .\ht32\59041\obj\ht32_retarget.crf --depend .\ht32\59041\obj\ht32_retarget.d)
+I (..\library\HT32F5xxxx_Driver\inc\ht32.h)(0x59959B2B)
+I (..\library\Device\Holtek\HT32F5xxxx\Include\ht32f5xxxx_01.h)(0x5EB26249)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_config.h)(0x5DCD42DC)
+I (..\library\CMSIS\Include\core_cm0plus.h)(0x5649CB3A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\library\CMSIS\Include\core_cmInstr.h)(0x5649CB3A)
+I (..\library\CMSIS\Include\core_cmFunc.h)(0x5649CB3A)
+I (..\library\Device\Holtek\HT32F5xxxx\Include\system_ht32f5xxxx_01.h)(0x599DAC9A)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_lib.h)(0x5DCD42DC)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f50231_41_libcfg.h)(0x5D455E89)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AD21A)
+I (..\ht32f5xxxx_conf.h)(0x5DCD2F40)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_adc.h)(0x5E6EE9DB)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_bftm.h)(0x5CB1B379)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_ckcu.h)(0x5CF65571)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_crc.h)(0x59959B2B)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_div.h)(0x5A9928BD)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_exti.h)(0x5CCFDE6A)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_flash.h)(0x5A17C59F)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_gpio.h)(0x5E756A05)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_tm_type.h)(0x5CEE39AA)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_tm.h)(0x5CF62BB8)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_i2c.h)(0x5EB3A8DB)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_mctm.h)(0x5DCD42DC)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_pwrcu.h)(0x5D455E89)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_rstcu.h)(0x5DCD42DC)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_rtc.h)(0x5CF5EB1D)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_spi.h)(0x5D1EF627)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_usart.h)(0x5CD579A8)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_wdt.h)(0x59959B2B)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_cm0plus_misc.h)(0x574D2641)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_serial.h)(0x5DCD32CE)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_div.h)(0x56C22A05)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_rand.h)(0x57B1BC8E)
+I (..\utilities\ht32_board.h)(0x5E63095F)
+I (..\utilities\HT32_board/ht32f50241_sk.h)(0x5EB3B360)
+I (..\utilities\common/i2c_eeprom.h)(0x5EB36589)
+I (..\utilities\common/spi_flash.h)(0x5C46FF4D)
+I (..\utilities\common/spi_lcd.h)(0x5D7A419C)
+I (..\utilities\common/lcd.h)(0x5D7A419C)
+I (C:\Keil_v5\ARM\ARMCC\include\rt_misc.h)(0x5D9AD212)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9AD218)
+F (..\library\HT32F5xxxx_Driver\src\ht32_serial.c)(0x5DC5C69D)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\ -I ..\library\CMSIS\Include -I ..\library\Device\Holtek\HT32F5xxxx\Include -I ..\library\HT32F5xxxx_Driver\inc -I ..\library\HT32_USBD_Library\inc -I ..\utilities -I ..\User\inc -I ..\utilities\common-I.\RTE\_Target-IC:\Keil_v5\ARM\PACK\Holtek\HT32_DFP\1.0.21\ARM\INC\Holtek\HT32F5xxxx-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DUSE_HT32F59041 -DUSE_HT32_DRIVER -DUSE_HT32F59041_SK -DUSE_HT32F59041 -DUSE_MEM_HT32F59041-o .\ht32\59041\obj\ht32_serial.o --omf_browse .\ht32\59041\obj\ht32_serial.crf --depend .\ht32\59041\obj\ht32_serial.d)
+I (..\library\HT32F5xxxx_Driver\inc\ht32.h)(0x59959B2B)
+I (..\library\Device\Holtek\HT32F5xxxx\Include\ht32f5xxxx_01.h)(0x5EB26249)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_config.h)(0x5DCD42DC)
+I (..\library\CMSIS\Include\core_cm0plus.h)(0x5649CB3A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\library\CMSIS\Include\core_cmInstr.h)(0x5649CB3A)
+I (..\library\CMSIS\Include\core_cmFunc.h)(0x5649CB3A)
+I (..\library\Device\Holtek\HT32F5xxxx\Include\system_ht32f5xxxx_01.h)(0x599DAC9A)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_lib.h)(0x5DCD42DC)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f50231_41_libcfg.h)(0x5D455E89)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AD21A)
+I (..\ht32f5xxxx_conf.h)(0x5DCD2F40)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_adc.h)(0x5E6EE9DB)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_bftm.h)(0x5CB1B379)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_ckcu.h)(0x5CF65571)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_crc.h)(0x59959B2B)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_div.h)(0x5A9928BD)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_exti.h)(0x5CCFDE6A)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_flash.h)(0x5A17C59F)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_gpio.h)(0x5E756A05)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_tm_type.h)(0x5CEE39AA)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_tm.h)(0x5CF62BB8)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_i2c.h)(0x5EB3A8DB)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_mctm.h)(0x5DCD42DC)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_pwrcu.h)(0x5D455E89)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_rstcu.h)(0x5DCD42DC)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_rtc.h)(0x5CF5EB1D)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_spi.h)(0x5D1EF627)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_usart.h)(0x5CD579A8)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_wdt.h)(0x59959B2B)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_cm0plus_misc.h)(0x574D2641)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_serial.h)(0x5DCD32CE)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_div.h)(0x56C22A05)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_rand.h)(0x57B1BC8E)
+I (..\utilities\ht32_board.h)(0x5E63095F)
+I (..\utilities\HT32_board/ht32f50241_sk.h)(0x5EB3B360)
+I (..\utilities\common/i2c_eeprom.h)(0x5EB36589)
+I (..\utilities\common/spi_flash.h)(0x5C46FF4D)
+I (..\utilities\common/spi_lcd.h)(0x5D7A419C)
+I (..\utilities\common/lcd.h)(0x5D7A419C)
+F (..\utilities\ht32_board.c)(0x5CFDE04A)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\ -I ..\library\CMSIS\Include -I ..\library\Device\Holtek\HT32F5xxxx\Include -I ..\library\HT32F5xxxx_Driver\inc -I ..\library\HT32_USBD_Library\inc -I ..\utilities -I ..\User\inc -I ..\utilities\common-I.\RTE\_Target-IC:\Keil_v5\ARM\PACK\Holtek\HT32_DFP\1.0.21\ARM\INC\Holtek\HT32F5xxxx-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DUSE_HT32F59041 -DUSE_HT32_DRIVER -DUSE_HT32F59041_SK -DUSE_HT32F59041 -DUSE_MEM_HT32F59041-o .\ht32\59041\obj\ht32_board.o --omf_browse .\ht32\59041\obj\ht32_board.crf --depend .\ht32\59041\obj\ht32_board.d)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_config.h)(0x5DCD42DC)
+I (..\utilities\HT32_board/ht32f5xxxx_board_01.c)(0x5E709B40)
+I (..\utilities\ht32_board.h)(0x5E63095F)
+I (..\utilities\HT32_board/ht32f50241_sk.h)(0x5EB3B360)
+I (..\library\HT32F5xxxx_Driver\inc\ht32.h)(0x59959B2B)
+I (..\library\Device\Holtek\HT32F5xxxx\Include\ht32f5xxxx_01.h)(0x5EB26249)
+I (..\library\CMSIS\Include\core_cm0plus.h)(0x5649CB3A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\library\CMSIS\Include\core_cmInstr.h)(0x5649CB3A)
+I (..\library\CMSIS\Include\core_cmFunc.h)(0x5649CB3A)
+I (..\library\Device\Holtek\HT32F5xxxx\Include\system_ht32f5xxxx_01.h)(0x599DAC9A)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_lib.h)(0x5DCD42DC)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f50231_41_libcfg.h)(0x5D455E89)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AD21A)
+I (..\ht32f5xxxx_conf.h)(0x5DCD2F40)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_adc.h)(0x5E6EE9DB)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_bftm.h)(0x5CB1B379)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_ckcu.h)(0x5CF65571)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_crc.h)(0x59959B2B)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_div.h)(0x5A9928BD)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_exti.h)(0x5CCFDE6A)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_flash.h)(0x5A17C59F)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_gpio.h)(0x5E756A05)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_tm_type.h)(0x5CEE39AA)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_tm.h)(0x5CF62BB8)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_i2c.h)(0x5EB3A8DB)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_mctm.h)(0x5DCD42DC)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_pwrcu.h)(0x5D455E89)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_rstcu.h)(0x5DCD42DC)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_rtc.h)(0x5CF5EB1D)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_spi.h)(0x5D1EF627)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_usart.h)(0x5CD579A8)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_wdt.h)(0x59959B2B)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_cm0plus_misc.h)(0x574D2641)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_serial.h)(0x5DCD32CE)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_div.h)(0x56C22A05)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_rand.h)(0x57B1BC8E)
+I (..\utilities\common/i2c_eeprom.h)(0x5EB36589)
+I (..\utilities\common/spi_flash.h)(0x5C46FF4D)
+I (..\utilities\common/spi_lcd.h)(0x5D7A419C)
+I (..\utilities\common/lcd.h)(0x5D7A419C)
+F (..\utilities\common\i2c_eeprom.c)(0x5A938F1B)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\ -I ..\library\CMSIS\Include -I ..\library\Device\Holtek\HT32F5xxxx\Include -I ..\library\HT32F5xxxx_Driver\inc -I ..\library\HT32_USBD_Library\inc -I ..\utilities -I ..\User\inc -I ..\utilities\common-I.\RTE\_Target-IC:\Keil_v5\ARM\PACK\Holtek\HT32_DFP\1.0.21\ARM\INC\Holtek\HT32F5xxxx-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DUSE_HT32F59041 -DUSE_HT32_DRIVER -DUSE_HT32F59041_SK -DUSE_HT32F59041 -DUSE_MEM_HT32F59041-o .\ht32\59041\obj\i2c_eeprom.o --omf_browse .\ht32\59041\obj\i2c_eeprom.crf --depend .\ht32\59041\obj\i2c_eeprom.d)
+I (..\library\HT32F5xxxx_Driver\inc\ht32.h)(0x59959B2B)
+I (..\library\Device\Holtek\HT32F5xxxx\Include\ht32f5xxxx_01.h)(0x5EB26249)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_config.h)(0x5DCD42DC)
+I (..\library\CMSIS\Include\core_cm0plus.h)(0x5649CB3A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\library\CMSIS\Include\core_cmInstr.h)(0x5649CB3A)
+I (..\library\CMSIS\Include\core_cmFunc.h)(0x5649CB3A)
+I (..\library\Device\Holtek\HT32F5xxxx\Include\system_ht32f5xxxx_01.h)(0x599DAC9A)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_lib.h)(0x5DCD42DC)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f50231_41_libcfg.h)(0x5D455E89)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AD21A)
+I (..\ht32f5xxxx_conf.h)(0x5DCD2F40)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_adc.h)(0x5E6EE9DB)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_bftm.h)(0x5CB1B379)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_ckcu.h)(0x5CF65571)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_crc.h)(0x59959B2B)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_div.h)(0x5A9928BD)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_exti.h)(0x5CCFDE6A)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_flash.h)(0x5A17C59F)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_gpio.h)(0x5E756A05)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_tm_type.h)(0x5CEE39AA)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_tm.h)(0x5CF62BB8)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_i2c.h)(0x5EB3A8DB)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_mctm.h)(0x5DCD42DC)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_pwrcu.h)(0x5D455E89)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_rstcu.h)(0x5DCD42DC)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_rtc.h)(0x5CF5EB1D)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_spi.h)(0x5D1EF627)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_usart.h)(0x5CD579A8)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_wdt.h)(0x59959B2B)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_cm0plus_misc.h)(0x574D2641)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_serial.h)(0x5DCD32CE)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_div.h)(0x56C22A05)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_rand.h)(0x57B1BC8E)
+I (..\utilities\common\i2c_eeprom.h)(0x5EB36589)
+I (..\utilities\ht32_board.h)(0x5E63095F)
+I (..\utilities\HT32_board/ht32f50241_sk.h)(0x5EB3B360)
+I (..\utilities\common/i2c_eeprom.h)(0x5EB36589)
+I (..\utilities\common/spi_flash.h)(0x5C46FF4D)
+I (..\utilities\common/spi_lcd.h)(0x5D7A419C)
+I (..\utilities\common/lcd.h)(0x5D7A419C)
+F (..\utilities\common\spi_flash.c)(0x5DDFE38D)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\ -I ..\library\CMSIS\Include -I ..\library\Device\Holtek\HT32F5xxxx\Include -I ..\library\HT32F5xxxx_Driver\inc -I ..\library\HT32_USBD_Library\inc -I ..\utilities -I ..\User\inc -I ..\utilities\common-I.\RTE\_Target-IC:\Keil_v5\ARM\PACK\Holtek\HT32_DFP\1.0.21\ARM\INC\Holtek\HT32F5xxxx-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DUSE_HT32F59041 -DUSE_HT32_DRIVER -DUSE_HT32F59041_SK -DUSE_HT32F59041 -DUSE_MEM_HT32F59041-o .\ht32\59041\obj\spi_flash.o --omf_browse .\ht32\59041\obj\spi_flash.crf --depend .\ht32\59041\obj\spi_flash.d)
+I (..\utilities\common\spi_flash.h)(0x5C46FF4D)
+I (..\utilities\ht32_board.h)(0x5E63095F)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_config.h)(0x5DCD42DC)
+I (..\utilities\HT32_board/ht32f50241_sk.h)(0x5EB3B360)
+I (..\library\HT32F5xxxx_Driver\inc\ht32.h)(0x59959B2B)
+I (..\library\Device\Holtek\HT32F5xxxx\Include\ht32f5xxxx_01.h)(0x5EB26249)
+I (..\library\CMSIS\Include\core_cm0plus.h)(0x5649CB3A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\library\CMSIS\Include\core_cmInstr.h)(0x5649CB3A)
+I (..\library\CMSIS\Include\core_cmFunc.h)(0x5649CB3A)
+I (..\library\Device\Holtek\HT32F5xxxx\Include\system_ht32f5xxxx_01.h)(0x599DAC9A)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_lib.h)(0x5DCD42DC)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f50231_41_libcfg.h)(0x5D455E89)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AD21A)
+I (..\ht32f5xxxx_conf.h)(0x5DCD2F40)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_adc.h)(0x5E6EE9DB)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_bftm.h)(0x5CB1B379)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_ckcu.h)(0x5CF65571)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_crc.h)(0x59959B2B)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_div.h)(0x5A9928BD)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_exti.h)(0x5CCFDE6A)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_flash.h)(0x5A17C59F)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_gpio.h)(0x5E756A05)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_tm_type.h)(0x5CEE39AA)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_tm.h)(0x5CF62BB8)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_i2c.h)(0x5EB3A8DB)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_mctm.h)(0x5DCD42DC)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_pwrcu.h)(0x5D455E89)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_rstcu.h)(0x5DCD42DC)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_rtc.h)(0x5CF5EB1D)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_spi.h)(0x5D1EF627)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_usart.h)(0x5CD579A8)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_wdt.h)(0x59959B2B)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_cm0plus_misc.h)(0x574D2641)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_serial.h)(0x5DCD32CE)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_div.h)(0x56C22A05)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_rand.h)(0x57B1BC8E)
+I (..\utilities\common/i2c_eeprom.h)(0x5EB36589)
+I (..\utilities\common/spi_flash.h)(0x5C46FF4D)
+I (..\utilities\common/spi_lcd.h)(0x5D7A419C)
+I (..\utilities\common/lcd.h)(0x5D7A419C)
+F (..\utilities\common\spi_lcd.c)(0x5D036AD4)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\ -I ..\library\CMSIS\Include -I ..\library\Device\Holtek\HT32F5xxxx\Include -I ..\library\HT32F5xxxx_Driver\inc -I ..\library\HT32_USBD_Library\inc -I ..\utilities -I ..\User\inc -I ..\utilities\common-I.\RTE\_Target-IC:\Keil_v5\ARM\PACK\Holtek\HT32_DFP\1.0.21\ARM\INC\Holtek\HT32F5xxxx-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DUSE_HT32F59041 -DUSE_HT32_DRIVER -DUSE_HT32F59041_SK -DUSE_HT32F59041 -DUSE_MEM_HT32F59041-o .\ht32\59041\obj\spi_lcd.o --omf_browse .\ht32\59041\obj\spi_lcd.crf --depend .\ht32\59041\obj\spi_lcd.d)
+I (..\utilities\common\spi_lcd.h)(0x5D7A419C)
+I (..\utilities\ht32_board.h)(0x5E63095F)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_config.h)(0x5DCD42DC)
+I (..\utilities\HT32_board/ht32f50241_sk.h)(0x5EB3B360)
+I (..\library\HT32F5xxxx_Driver\inc\ht32.h)(0x59959B2B)
+I (..\library\Device\Holtek\HT32F5xxxx\Include\ht32f5xxxx_01.h)(0x5EB26249)
+I (..\library\CMSIS\Include\core_cm0plus.h)(0x5649CB3A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\library\CMSIS\Include\core_cmInstr.h)(0x5649CB3A)
+I (..\library\CMSIS\Include\core_cmFunc.h)(0x5649CB3A)
+I (..\library\Device\Holtek\HT32F5xxxx\Include\system_ht32f5xxxx_01.h)(0x599DAC9A)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_lib.h)(0x5DCD42DC)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f50231_41_libcfg.h)(0x5D455E89)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AD21A)
+I (..\ht32f5xxxx_conf.h)(0x5DCD2F40)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_adc.h)(0x5E6EE9DB)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_bftm.h)(0x5CB1B379)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_ckcu.h)(0x5CF65571)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_crc.h)(0x59959B2B)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_div.h)(0x5A9928BD)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_exti.h)(0x5CCFDE6A)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_flash.h)(0x5A17C59F)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_gpio.h)(0x5E756A05)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_tm_type.h)(0x5CEE39AA)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_tm.h)(0x5CF62BB8)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_i2c.h)(0x5EB3A8DB)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_mctm.h)(0x5DCD42DC)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_pwrcu.h)(0x5D455E89)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_rstcu.h)(0x5DCD42DC)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_rtc.h)(0x5CF5EB1D)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_spi.h)(0x5D1EF627)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_usart.h)(0x5CD579A8)
+I (..\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_wdt.h)(0x59959B2B)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_cm0plus_misc.h)(0x574D2641)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_serial.h)(0x5DCD32CE)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_div.h)(0x56C22A05)
+I (..\library\HT32F5xxxx_Driver\inc\ht32_rand.h)(0x57B1BC8E)
+I (..\utilities\common/i2c_eeprom.h)(0x5EB36589)
+I (..\utilities\common/spi_flash.h)(0x5C46FF4D)
+I (..\utilities\common/spi_lcd.h)(0x5D7A419C)
+I (..\utilities\common\lcd.h)(0x5D7A419C)
+I (..\utilities\common\font.h)(0x56699B9B)
+F (..\readme.txt)(0x5CB17CE9)()
